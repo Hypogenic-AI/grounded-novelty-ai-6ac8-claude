@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C0_ungrounded",
+  "seed": 0,
+  "bank": [
+    "Posts containing frequent first-person singular pronouns combined with negative emotion words indicate 'has stress'.",
+    "Use of words related to sleep disturbances (e.g., 'insomnia', 'can't sleep') correlates with 'has stress'.",
+    "High ratio of absolutist words (e.g., 'always', 'never') predicts 'has stress'.",
+    "Frequent expressions of overwhelm or inability to cope (e.g., 'too much', 'breaking') suggest 'has stress'.",
+    "Posts with increased use of cognitive processing words (e.g., 'think', 'understand') but negative sentiment imply 'has stress'.",
+    "Presence of language reflecting social withdrawal or isolation (e.g., 'alone', 'nobody') signals 'has stress'.",
+    "Rapid shifts between emotional extremes within a post are indicative of 'has stress'.",
+    "Frequent use of negations combined with self-referential statements (e.g., 'I can't', 'I'm not okay') predicts 'has stress'.",
+    "Posts with a higher count of questions expressing uncertainty or doubt (e.g., 'Why am I?', 'What if?') are associated with 'has stress'.",
+    "Use of metaphorical language related to burden or weight (e.g., 'carrying', 'heavy') correlates with 'has stress'.",
+    "Posts with fewer positive emotion words and more anxiety-related words (e.g., 'worried', 'nervous') indicate 'has stress'.",
+    "Frequent references to physiological symptoms (e.g., 'heart racing', 'headache') suggest 'has stress'.",
+    "Use of future-oriented pessimistic language (e.g., 'won't get better', 'never again') predicts 'has stress'.",
+    "Posts exhibiting repetitive language patterns or rumination topics signal 'has stress'.",
+    "Presence of language indicating difficulty concentrating or decision-making (e.g., 'can't focus', 'confused') correlates with 'has stress'."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C3_empirical",
+  "seed": 1,
+  "bank": [
+    "Posts expressing intense negative emotions such as despair, panic, or crying that are accompanied by explicit current, active distress or direct expressions of feeling overwhelmed indicate 'has stress'.",
+    "Mentions of traumatic events, abuse, or flashbacks imply 'has stress' only when the poster describes active emotional disturbance, distress, or ongoing impact rather than neutral or factual recounting.",
+    "Descriptions of internal struggles with anxiety, depression, or PTSD that reflect present, felt emotional or psychological burden and current impairment signal 'has stress'.",
+    "Posts that describe feeling overwhelmed, helpless, or having low self-esteem alongside explicit statements of current emotional difficulty or distress suggest 'has stress'.",
+    "Use of language showing confusion, self-doubt, or feeling like a fraud that is linked to active emotional distress or current psychological burden is associated with 'has stress'.",
+    "Explicit references to mental health treatment or symptoms imply 'has stress' only if accompanied by expressions of current distress, struggle, or negative emotional states; neutral or hopeful mentions imply 'no stress'.",
+    "Posts reporting recent or ongoing physical or emotional abuse incidents imply 'has stress', but historical, resolved, or factual recount without expressed distress implies 'no stress'.",
+    "Narratives that include seeking or describing emotional support specifically for current trauma or distress indicate 'has stress'.",
+    "Posts focused on managing or escaping negative thoughts or feelings that indicate ongoing emotional struggle suggest 'has stress'.",
+    "Posts that describe coping strategies unrelated to distress, or that discuss neutral or positive experiences, past resolved issues, or hopeful progress indicate 'no stress'.",
+    "Posts that discuss events or situations in a neutral or factual tone without personal emotional distress or current burden suggest 'no stress'.",
+    "Posts involving intellectual discussions, opinions, or requests for advice without accompanying personal emotional distress or negative affect imply 'no stress'.",
+    "Reports of positive or stable life circumstances, hopeful outlooks, or relationships that reflect current well-being suggest 'no stress'.",
+    "Descriptions of normal social interactions or minor conflicts without emotional overwhelm, distress, or negative affect indicate 'no stress'.",
+    "Posts containing humor, lighthearted content, or distractions to avoid anxiety that do not express ongoing distress or negative emotional burden typically signal 'no stress'."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C4_literature_compare",
+  "seed": 2,
+  "bank": [
+    "Reviews with excessive positive adjectives and lack of specific details about the hotel are deceptive.",
+    "Reviews mentioning personal experiences, such as staff interactions or room specifics, are truthful.",
+    "Reviews containing inconsistent or contradictory statements about the hotel amenities are deceptive.",
+    "Reviews with a balanced mention of both pros and cons of the hotel are truthful.",
+    "Reviews that use overly generic language and repeat common promotional phrases are deceptive.",
+    "Reviews that include timestamps or references to specific dates of stay are truthful.",
+    "Reviews that mention the booking process or payment details are truthful.",
+    "Reviews exhibiting unusual sentence structures or unnatural language patterns are deceptive.",
+    "Reviews that focus heavily on external factors unrelated to the hotel experience, like local events or weather, are deceptive.",
+    "Reviews containing detailed comparisons with other hotels are truthful.",
+    "Reviews that include first-person sensory descriptions, such as smells or sounds experienced during the stay, are truthful.",
+    "Reviews that exhibit a high frequency of superlative intensifiers (e.g., 'best', 'most amazing') without contextual explanation are deceptive.",
+    "Reviews that reference follow-up actions, like contacting customer service post-stay, are truthful.",
+    "Reviews using a consistent and realistic timeline of events during the stay are truthful.",
+    "Reviews that disproportionately focus on the hotel's brand reputation rather than specific stay details are deceptive."
+  ]
+}

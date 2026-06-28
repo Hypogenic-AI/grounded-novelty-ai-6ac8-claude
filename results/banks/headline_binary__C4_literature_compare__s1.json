@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C4_literature_compare",
+  "seed": 1,
+  "bank": [
+    "Headline with more emotional or sensational wording gets more clicks than the other.",
+    "Headline that uses numbers or lists gets more clicks than the one that does not.",
+    "Headline with a question format gets more clicks than a declarative headline.",
+    "Headline that implies exclusivity or breaking news gets more clicks than a neutral headline.",
+    "Headline that is shorter and easier to read gets more clicks than a longer, complex headline.",
+    "Headline that includes a well-known celebrity or brand name gets more clicks than one without.",
+    "Headline that uses active voice gets more clicks than one using passive voice.",
+    "Headline that creates curiosity by leaving out key details gets more clicks than one that fully explains the news.",
+    "Headline that uses informal or conversational language gets more clicks than one with formal or technical language.",
+    "Headline that references current trends or popular culture topics gets more clicks than one that does not.",
+    "Headline that uses metaphors or vivid imagery gets more clicks than one using plain language.",
+    "Headline that personalizes the news by addressing the reader directly gets more clicks than one that is impersonal.",
+    "Headline that includes a surprising or counterintuitive statement gets more clicks than a straightforward headline.",
+    "Headline that highlights potential benefits or positive outcomes gets more clicks than one focusing on risks or negatives.",
+    "Headline that uses humor or wit gets more clicks than a serious or neutral headline."
+  ]
+}

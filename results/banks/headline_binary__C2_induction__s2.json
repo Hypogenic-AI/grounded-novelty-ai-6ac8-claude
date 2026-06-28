@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C2_induction",
+  "seed": 2,
+  "bank": [
+    "Headlines with emotionally charged or provocative language get more clicks than neutral or generic phrasing.",
+    "Use of superlatives or intensifiers (e.g., 'awesomest', 'incredibly') increases click appeal.",
+    "Headlines that create curiosity or imply surprising information attract more clicks.",
+    "Personalized or direct address to the reader (e.g., 'I Bet You've Never Thought') generates more engagement.",
+    "Headlines with informal or colloquial wording (e.g., 'guys', 'homies') tend to get more clicks than formal language.",
+    "Using contrast or exclusivity (e.g., 'But THESE People?', 'Not A Chance') draws more attention.",
+    "Headlines that imply a story of conflict, danger, or injustice are more clickable.",
+    "Headlines that promise insight into social issues or current events attract more clicks.",
+    "Shorter, punchier headlines with active verbs often perform better than longer, passive ones.",
+    "Adding a question in the headline can increase curiosity and clicks.",
+    "Headlines that hint at a solution or actionable insight have higher click rates.",
+    "Using numbers or specific details (e.g., '4 Girls', '$500 Billion') boosts headline appeal.",
+    "Humor or playful language can increase clicks if it feels natural and relevant.",
+    "Avoiding redundancy or unnecessary words makes headlines more effective for clicks.",
+    "Headlines implying exclusivity or insider knowledge ('Another example', 'The difference according to') attract more clicks."
+  ]
+}

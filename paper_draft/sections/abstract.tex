@@ -1,0 +1,24 @@
+A popular prescription for automated scientific ideation is to \emph{ground} the
+process---in deduction, induction, small experiments, literature comparison, or
+proposal writing---rather than prompting a language model abstractly. Yet every
+prior method grounds in only one way and compares against a (typically weak)
+ungrounded baseline, so it remains unknown which grounding \emph{mechanism}
+actually helps when all else is held fixed. We present the first single-protocol,
+head-to-head ablation of six ideation regimes (one ungrounded control plus five
+grounding mechanisms). Holding the model (\gptmini), task suite, generation
+budget, and evaluation procedure fixed, each regime produces a bank of $15$ task
+hypotheses, and each bank is scored by an objective downstream-utility metric: how
+accurately an LLM applying the bank predicts held-out labels, both in-distribution
+(\IND) and out-of-distribution (\OOD), across three classification tasks and three
+seeds ($54$ banks, $\approx 11.9$k API calls). We find that grounding does
+\emph{not} uniformly help: pooled across regimes, grounded banks are statistically
+indistinguishable from---and slightly below---the ungrounded control. But the
+mechanism matters decisively. Grounding in \emph{empirical feedback}
+(test-and-revise) is the only regime that significantly improves \IND{} accuracy
+($+4.4$ points, Cohen's $d=1.09$, $p=0.02$), at roughly $80\times$ the token cost;
+proposal writing significantly \emph{hurts} ($-5.7$ points, $p=0.008$) and
+collapses idea diversity; and data grounding can \emph{overfit}, trading \OOD{}
+robustness for \IND{} fit. Novelty and diversity do not track usefulness within a
+task. For today's strong LLMs, ``ground your ideation'' is too coarse: only
+empirical grounding reliably adds value, and ungrounded prompting is a
+surprisingly hard baseline to beat.

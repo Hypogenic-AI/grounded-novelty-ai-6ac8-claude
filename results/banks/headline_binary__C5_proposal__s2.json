@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C5_proposal",
+  "seed": 2,
+  "bank": [
+    "Headline with a question form has more clicks than headline without a question form",
+    "Headline containing ellipses or trailing dots has more clicks than headline without ellipses",
+    "Headline with phrases implying missing information (e.g., 'You won't believe') has more clicks than headline without such phrases",
+    "Headline with higher count of emotionally charged words (positive or negative) has more clicks than headline with fewer such words",
+    "Headline with simpler vocabulary and lower average word length has more clicks than headline with complex vocabulary",
+    "Headline with lower syntactic complexity has more clicks than headline with higher syntactic complexity",
+    "Headline with better readability scores (easier to read) has more clicks than headline with poorer readability",
+    "Headline using second-person pronouns ('you') has more clicks than headline without second-person pronouns",
+    "Headline with direct calls to action (e.g., 'Discover', 'Find out') has more clicks than headline lacking calls to action",
+    "Headline written in active voice has more clicks than headline written in passive voice",
+    "Headline containing novel or uncommon words has more clicks than headline with only common words",
+    "Headline that evokes positive emotional valence has more clicks than headline with neutral or negative valence",
+    "Headline that evokes negative emotional valence has more clicks than headline with neutral or positive valence",
+    "Headline that implies urgency or scarcity (e.g., 'Now', 'Limited time') has more clicks than headline lacking urgency cues",
+    "Headline that is shorter in length (fewer words) has more clicks than headline that is longer"
+  ]
+}

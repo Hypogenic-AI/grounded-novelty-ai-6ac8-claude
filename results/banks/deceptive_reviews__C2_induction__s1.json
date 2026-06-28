@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C2_induction",
+  "seed": 1,
+  "bank": [
+    "Reviews mentioning specific personal experiences with room features, staff interactions, or hotel amenities indicate truthful reviews.",
+    "Reviews that describe detailed, concrete events or problems encountered during the stay are likely truthful.",
+    "Use of first-person plural pronouns and past tense verbs relating to actual stay suggests truthful reviews.",
+    "Reviews focusing on general praise or vague descriptions without concrete stay details tend to be deceptive.",
+    "Reviews that emphasize marketing language, superlatives, or clich\u00e9s without detailed stay narratives are deceptive.",
+    "Mentioning complaints about service quality, rude staff, or unclean conditions often appears in truthful reviews.",
+    "Reviews that describe logistical details such as check-in processes, room location, and transportation indicate truthful stays.",
+    "Reviews with inconsistent or overly positive language about a hotel despite obvious flaws tend to be deceptive.",
+    "Describing sensory experiences like smells, noises, or physical discomfort is a sign of truthful reviews.",
+    "Reviews that discuss hotel policies, fees, or charges with personal reactions often indicate truthful stays.",
+    "Reviews containing exaggerated praise without mention of any negatives or specifics are often deceptive.",
+    "Mentioning family or companions and their reactions provides evidence of truthful hotel stays.",
+    "Reviews that focus mainly on the hotel\u2019s image or web photos without personal experience details lean toward deceptive.",
+    "Detailed narratives about interactions with multiple staff members and service failures suggest truthful reviews.",
+    "Reviews that describe emotional responses and concrete consequences of problems (e.g., leaving early) indicate truthful stays."
+  ]
+}

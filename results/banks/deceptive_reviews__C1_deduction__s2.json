@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C1_deduction",
+  "seed": 2,
+  "bank": [
+    "If a review contains specific details about the room layout or decor that match hotel facts, label as truthful.",
+    "If a review mentions sensory experiences such as smells, sounds, or views, label as truthful.",
+    "If a review contains vague or generic statements without concrete details, label as deceptive.",
+    "If a review includes temporal references like check-in/check-out times or length of stay, label as truthful.",
+    "If a review uses overly promotional language or repeated catchphrases, label as deceptive.",
+    "If a review contains factual inaccuracies about hotel amenities, label as deceptive.",
+    "If a review expresses nuanced emotional reactions (both positive and negative), label as truthful.",
+    "If a review is excessively positive or negative without balance, label as deceptive.",
+    "If a review mentions interactions with specific hotel staff or service details, label as truthful.",
+    "If a review describes unique or unusual experiences unlikely to be fabricated, label as truthful.",
+    "If a review repeats phrases or stylistic patterns common in multiple reviews, label as deceptive.",
+    "If a review lacks references to location-specific details (nearby landmarks, neighborhood), label as deceptive.",
+    "If a review includes references to booking or reservation experience, label as truthful.",
+    "If a review's language is generic and could apply to any hotel, label as deceptive.",
+    "If a review discusses maintenance issues or minor complaints with specific context, label as truthful."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C5_proposal",
+  "seed": 2,
+  "bank": [
+    "Reviews with frequent specific mentions of room features are truthful.",
+    "Reviews containing explicit temporal references (e.g., check-in times) are truthful.",
+    "Reviews with detailed descriptions of staff interactions are truthful.",
+    "Reviews using fewer first-person pronouns are deceptive.",
+    "Reviews with a high count of superlative adjectives (e.g., best, worst) are deceptive.",
+    "Reviews exhibiting consistently positive or negative sentiment throughout are deceptive.",
+    "Reviews showing mixed or balanced sentiment polarity are truthful.",
+    "Reviews containing multiple sensory descriptors (visual, auditory, olfactory) are truthful.",
+    "Reviews with abrupt topic shifts or inconsistent sentiment are deceptive.",
+    "Reviews using generic, vague language without concrete examples are deceptive.",
+    "Reviews with a higher density of named entities (places, people) are truthful.",
+    "Reviews that avoid personal experience terms (e.g., I saw, I heard) are deceptive.",
+    "Reviews with coherent narrative structure and logical flow are truthful.",
+    "Reviews exhibiting exaggerated emotional language are deceptive.",
+    "Reviews that reference external information rather than firsthand experience are deceptive."
+  ]
+}

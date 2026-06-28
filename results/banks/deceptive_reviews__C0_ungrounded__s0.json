@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C0_ungrounded",
+  "seed": 0,
+  "bank": [
+    "Reviews with excessive use of superlatives (e.g., 'best', 'amazing') and vague descriptions are more likely deceptive.",
+    "Reviews that mention specific details about room layout, staff names, or local attractions are more likely truthful.",
+    "Reviews written in first-person narrative with personal anecdotes indicate truthful authorship.",
+    "Reviews that avoid mentioning any negatives or only praise the hotel are more likely deceptive.",
+    "Reviews posted from accounts with minimal prior activity or no verified bookings are more likely deceptive.",
+    "Reviews containing contradictory statements about the hotel experience are more likely deceptive.",
+    "Reviews with unusual timing patterns, such as multiple reviews within a short time frame, suggest deception.",
+    "Reviews that focus heavily on price and promotions rather than experience are more likely deceptive.",
+    "Reviews including photos or videos taken inside the hotel are more likely truthful.",
+    "Reviews with generic or template-like language, repeated across multiple reviews, indicate deception.",
+    "Reviews that describe the check-in/check-out process in detail are more likely truthful.",
+    "Reviews referencing multiple aspects of the stay (room, amenities, service, location) are more likely truthful.",
+    "Reviews that use overly formal language or marketing jargon are more likely deceptive.",
+    "Reviews that mention interactions with other guests or specific events during the stay are more likely truthful.",
+    "Reviews that reference temporal context (season, time of day) in relation to the stay indicate truthful authorship."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C0_ungrounded",
+  "seed": 1,
+  "bank": [
+    "Posts containing first-person singular pronouns combined with negative emotion words indicate 'has stress'.",
+    "Frequent use of past tense verbs related to failure or loss signals 'has stress'.",
+    "High density of anxiety-related keywords correlates with 'has stress'.",
+    "Use of fragmented or run-on sentences reflects cognitive overload, indicating 'has stress'.",
+    "Expressions of sleep disturbance or fatigue terms predict 'has stress'.",
+    "Posts with sudden topic shifts or incoherent narrative suggest 'has stress'.",
+    "Increased use of absolutist words (e.g., always, never) associates with 'has stress'.",
+    "Frequent self-referential questions or doubt expressions indicate 'has stress'.",
+    "Posts with lower lexical diversity and repetitive phrasing correlate with 'has stress'.",
+    "Use of social withdrawal indicators (e.g., avoiding people, isolation) predicts 'has stress'.",
+    "Frequent mentions of physical symptoms (e.g., headaches, nausea) associate with 'has stress'.",
+    "Posts containing expressions of hopelessness or helplessness predict 'has stress'.",
+    "High use of negations combined with positive terms (e.g., not happy) signals 'has stress'.",
+    "Presence of metaphorical language related to burden or pressure indicates 'has stress'.",
+    "Frequent use of future-oriented worry statements predicts 'has stress'."
+  ]
+}

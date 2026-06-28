@@ -1,0 +1,29 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We presented the first single-protocol, head-to-head ablation of six LLM ideation
+regimes---one ungrounded control and five grounding mechanisms---holding the model,
+task suite, generation budget, and evaluation procedure fixed and scoring each by
+objective downstream utility. Our answer to the motivating question is nuanced and
+partly negative: under a fixed, objective protocol, \emph{grounding does not reliably
+make a strong LLM's ideas better}. Pooled across mechanisms, grounded banks are
+statistically indistinguishable from a strong ungrounded control.
+
+\para{Key findings.} The mechanism is what matters. Grounding in empirical feedback
+(test-and-revise) is the only regime that significantly improves in-distribution
+usefulness ($+4.4$ points, $d{=}1.09$), but it costs $\sim\!80\times$ the tokens and
+its gains do not transfer out-of-distribution. Pure elaboration (proposal writing)
+significantly \emph{hurts} and collapses idea diversity. Data grounding can
+\emph{overfit}, trading out-of-distribution robustness for in-distribution fit. And
+novelty and diversity do not track usefulness within a task. Ungrounded prompting of
+a capable model is a surprisingly hard baseline to beat.
+
+\para{Future work.} Four directions follow directly. (1)~A cross-model sweep from
+weaker to frontier generators, to map where grounding's value lives as the ungrounded
+baseline strengthens. (2)~Regularized or \OOD-aware empirical grounding that keeps the
+in-distribution gain without overfitting to surface cues. (3)~Idea-level domains
+(\eg rediscovery benchmarks) to test whether these conclusions hold for open-ended
+ideation rather than classification rules. (4)~Hybrid ``prior $+$ minimal empirical
+check'' regimes that aim to capture most of empirical grounding's gain at a fraction
+of its cost. We release all banks, per-item predictions, and statistics to support
+these next steps.

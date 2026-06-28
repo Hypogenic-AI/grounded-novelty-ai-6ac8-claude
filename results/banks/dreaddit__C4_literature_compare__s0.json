@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C4_literature_compare",
+  "seed": 0,
+  "bank": [
+    "Posts containing frequent first-person singular pronouns combined with negative emotion words indicate 'has stress'.",
+    "Posts with a high density of words related to anxiety, sadness, or hopelessness are labeled 'has stress'.",
+    "Posts exhibiting frequent use of swear words or expressions of frustration correlate with 'has stress'.",
+    "Posts with predominantly neutral or positive language, including humor or social engagement words, are labeled 'no stress'.",
+    "Posts that reference sleep disturbances, fatigue, or physical symptoms alongside negative affect are indicative of 'has stress'.",
+    "Posts with sudden shifts in tense or perspective (e.g., switching from past to present) indicate cognitive disruption associated with 'has stress'.",
+    "Posts that contain excessive use of question marks or ellipses suggest uncertainty and rumination, correlating with 'has stress'.",
+    "Posts featuring language about social withdrawal or isolation without explicit negative emotion words indicate 'has stress'.",
+    "Posts that demonstrate reduced lexical diversity or repetitive phrasing are more likely to be labeled 'has stress'.",
+    "Posts employing metaphorical or abstract expressions of burden or pressure (e.g., 'carrying a weight') signal 'has stress'.",
+    "Posts that include frequent references to external stressors such as work, financial problems, or relationship conflicts indicate 'has stress'.",
+    "Posts with abrupt changes in sentence length or structure, reflecting disrupted thought patterns, correlate with 'has stress'.",
+    "Posts that use future-oriented language with expressions of worry or dread predict 'has stress'.",
+    "Posts containing a higher proportion of cognitive processing words (e.g., 'think', 'understand', 'because') reflect attempts to make sense of distress and indicate 'has stress'.",
+    "Posts that display linguistic distancing, such as using third-person pronouns to describe oneself, are associated with 'has stress'."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C1_deduction",
+  "seed": 1,
+  "bank": [
+    "Headline with a question format gets more clicks than one without",
+    "Headline containing numbers (e.g., '5 ways') gets more clicks than one without numbers",
+    "Headline using power words or superlatives gets more clicks than one with neutral words",
+    "Headline that is shorter but clear gets more clicks than a longer, wordier headline",
+    "Headline with direct address words ('you', 'your') gets more clicks than one without",
+    "Headline that evokes stronger emotional words gets more clicks than a neutral headline",
+    "Headline that creates a knowledge gap (curiosity) gets more clicks than a straightforward headline",
+    "Headline including a time reference ('now', 'today', 'breaking') gets more clicks than one without",
+    "Headline that is simpler and easier to read gets more clicks than a complex headline",
+    "Headline framed positively gets more clicks than a negatively framed headline in positive news contexts",
+    "Headline framed negatively gets more clicks than a positively framed headline in negative news contexts",
+    "Headline avoiding clickbait phrasing gets more clicks than a sensationalized headline",
+    "Headline with specific details gets more clicks than a vague headline",
+    "Headline that implies personal relevance gets more clicks than one that does not",
+    "Headline avoiding ambiguity gets more clicks than an ambiguous headline"
+  ]
+}

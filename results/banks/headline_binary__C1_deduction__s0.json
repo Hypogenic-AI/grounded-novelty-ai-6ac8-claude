@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C1_deduction",
+  "seed": 0,
+  "bank": [
+    "Headline with more emotionally charged words gets more clicks",
+    "Headline that uses numbers or list format gets more clicks",
+    "Headline phrased as a question gets more clicks",
+    "Headline that uses superlative adjectives gets more clicks",
+    "Headline that is shorter but informative gets more clicks",
+    "Headline that directly addresses the reader with 'you' or 'your' gets more clicks",
+    "Headline that uses active voice gets more clicks",
+    "Headline that places the most important information at the start gets more clicks",
+    "Headline that contains power words like 'secret' or 'revealed' gets more clicks",
+    "Headline that uses clear and simple language gets more clicks",
+    "Headline that promises novel or unique information gets more clicks",
+    "Headline that uses trending keywords gets more clicks",
+    "Headline that avoids ambiguity unless triggering curiosity gets more clicks",
+    "Headline with social proof or authority cues gets more clicks",
+    "Headline that avoids clickbait exaggeration gets more clicks"
+  ]
+}

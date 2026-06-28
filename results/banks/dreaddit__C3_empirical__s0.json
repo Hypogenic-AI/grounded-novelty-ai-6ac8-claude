@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C3_empirical",
+  "seed": 0,
+  "bank": [
+    "Posts expressing intense negative emotions such as fear, anxiety, panic, or sadness linked to current or recent distress\u2014even when describing past events or management efforts\u2014indicate 'has stress'.",
+    "Posts describing intrusive thoughts, nightmares, trauma-related symptoms, or emotional dysregulation with signs of active distress or impairment indicate 'has stress'.",
+    "Posts showing self-blame, guilt, rumination, or critical self-reflection that imply ongoing emotional distress or functional impairment indicate 'has stress'.",
+    "Posts describing difficulty coping, feeling overwhelmed, or stuck in negative mental states without clear evidence of effective coping, acceptance, or improvement indicate 'has stress'.",
+    "Posts mentioning recent emotional struggles, confusion about feelings, or resigned attitudes toward distress that imply unresolved or ongoing distress indicate 'has stress'.",
+    "Posts discussing ongoing mental health challenges or symptoms without explicit indication of stable management, recovery, or emotional stability indicate 'has stress'.",
+    "Posts describing avoidance behaviors, needing distractions, or emotional numbing to manage distress, reflecting current impairment or maladaptive coping, indicate 'has stress'.",
+    "Posts using tentative, uncertain, or questioning language about their mental state, especially when coupled with confusion or distress, indicate 'has stress'.",
+    "Posts sharing traumatic experiences, abuse, or difficult relationships with expressed emotional distress or active symptoms indicate 'has stress'.",
+    "Posts recounting past distress or difficult experiences with reflective or normalized language, indicating acceptance, coping success, or emotional stability, indicate 'no stress'.",
+    "Posts that are factual, neutral, or descriptive about difficult situations or interpersonal conflicts without evident emotional distress or impairment indicate 'no stress'.",
+    "Posts expressing gratitude, encouragement, positive social interactions, hopeful outlooks, or resigned acceptance without active distress indicate 'no stress'.",
+    "Posts describing mental health conditions, treatments, or medication use in an informative or normalized way, especially with mention of progress, management, or stability, indicate 'no stress'.",
+    "Posts indicating emotional resilience, coping success, acceptance, or progress toward recovery indicate 'no stress'.",
+    "Posts mentioning anxiety, PTSD, or other mental health issues as past, managed, controlled, or habituated conditions, even if symptoms are noted as recurring but accepted, indicate 'no stress'."
+  ]
+}

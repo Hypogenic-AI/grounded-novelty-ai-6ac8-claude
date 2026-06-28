@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C1_deduction",
+  "seed": 2,
+  "bank": [
+    "Posts with a high frequency of negative emotion words are labeled 'has stress'.",
+    "Posts containing first-person singular pronouns above a threshold indicate 'has stress'.",
+    "Presence of absolutist words (always, never, completely) predicts 'has stress'.",
+    "Posts mentioning physical symptoms related to stress are labeled 'has stress'.",
+    "Posts with a high count of negations indicate 'has stress'.",
+    "Posts expressing social withdrawal terms predict 'has stress'.",
+    "Posts containing expressions of helplessness or hopelessness are labeled 'has stress'.",
+    "Posts with frequent references to seeking help or problem-solving difficulties indicate 'has stress'.",
+    "Posts with simplified syntax or shorter average sentence length are more likely 'has stress'.",
+    "Posts containing increased use of emotive punctuation indicate 'has stress'.",
+    "Posts mentioning changes in sleep or appetite are labeled 'has stress'.",
+    "Posts with increased future or past tense verbs predict 'has stress'.",
+    "Posts containing references to substance use correlate with 'has stress'.",
+    "Posts with a high ratio of negative to positive emotion words predict 'has stress'.",
+    "Posts lacking emotional content or containing neutral/positive language are labeled 'no stress'."
+  ]
+}

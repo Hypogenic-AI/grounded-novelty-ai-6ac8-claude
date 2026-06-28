@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C5_proposal",
+  "seed": 1,
+  "bank": [
+    "If the post contains a high frequency of first-person singular pronouns, predict 'has stress'.",
+    "If the post contains a low frequency of first-person singular pronouns, predict 'no stress'.",
+    "If the post contains a high frequency of negative emotion words, predict 'has stress'.",
+    "If the post contains a low frequency of negative emotion words, predict 'no stress'.",
+    "If the post contains a high frequency of cognitive processing words, predict 'has stress'.",
+    "If the post contains a low frequency of cognitive processing words, predict 'no stress'.",
+    "If the post contains frequent linguistic markers of uncertainty (e.g., 'um', 'uh', hedges), predict 'has stress'.",
+    "If the post contains rare or no linguistic markers of uncertainty, predict 'no stress'.",
+    "If the post contains a low frequency of social words, predict 'has stress'.",
+    "If the post contains a high frequency of social words, predict 'no stress'.",
+    "If the post contains a low frequency of positive emotion words, predict 'has stress'.",
+    "If the post contains a high frequency of positive emotion words, predict 'no stress'.",
+    "If the post exhibits combined high frequency of negative emotion and first-person singular pronouns, predict 'has stress'.",
+    "If the post exhibits combined high frequency of social words and positive emotion words, predict 'no stress'.",
+    "If the post contains multiple linguistic indicators of cognitive load and uncertainty simultaneously, predict 'has stress'."
+  ]
+}

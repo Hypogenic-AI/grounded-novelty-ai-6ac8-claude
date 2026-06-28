@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C2_induction",
+  "seed": 2,
+  "bank": [
+    "Posts expressing ongoing feelings of anxiety, dread, guilt, or panic attacks indicate 'has stress'.",
+    "Descriptions of trauma, PTSD symptoms, or mental health struggles with emotional distress signal 'has stress'.",
+    "Mentions of emotional overwhelm, dissociation, or feeling worthless/unlovable correspond to 'has stress'.",
+    "Narratives involving abusive or harmful relationships with negative emotional impact suggest 'has stress'.",
+    "References to substance abuse or withdrawal linked to negative mental effects imply 'has stress'.",
+    "Posts describing vivid nightmares or intrusive distressing thoughts reflect 'has stress'.",
+    "Statements about being mentally or emotionally stuck, frozen, or unable to act indicate 'has stress'.",
+    "Posts focused on recovery, acceptance, or positive coping strategies without negative affect imply 'no stress'.",
+    "Narratives that are mainly factual, neutral, or informational without clear emotional distress correspond to 'no stress'.",
+    "Mentions of positive or hopeful social interactions or future plans suggest 'no stress'.",
+    "Posts discussing mental health topics abstractly or seeking advice, without personal emotional burden, indicate 'no stress'.",
+    "Descriptions of interpersonal conflicts without explicit signs of personal distress or emotional suffering imply 'no stress'.",
+    "Posts that vent briefly but without clear ongoing emotional turmoil or hopelessness correspond to 'no stress'.",
+    "Mentions of past events without current emotional distress or negative mental state suggest 'no stress'.",
+    "Use of language indicating resilience, gratitude, or acceptance corresponds to 'no stress'."
+  ]
+}

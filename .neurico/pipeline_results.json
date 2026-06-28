@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/grounded-novelty-ai-6ac8-claude/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/grounded-novelty-ai-6ac8-claude/literature_review.md",
+        "resources_catalog": "/workspaces/grounded-novelty-ai-6ac8-claude/resources.md",
+        "papers_dir": "/workspaces/grounded-novelty-ai-6ac8-claude/papers",
+        "datasets_dir": "/workspaces/grounded-novelty-ai-6ac8-claude/datasets",
+        "code_dir": "/workspaces/grounded-novelty-ai-6ac8-claude/code"
+      },
+      "log_file": "/workspaces/grounded-novelty-ai-6ac8-claude/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/grounded-novelty-ai-6ac8-claude/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 1510.258116722107
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1644.8061470985413,
+      "log_file": "/workspaces/grounded-novelty-ai-6ac8-claude/logs/execution_claude.log",
+      "transcript_file": "/workspaces/grounded-novelty-ai-6ac8-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/grounded-novelty-ai-6ac8-claude"
+}

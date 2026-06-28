@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C5_proposal",
+  "seed": 0,
+  "bank": [
+    "If a review contains multiple concrete details about room features, label it truthful.",
+    "If a review uses predominantly vague or generic language without specific examples, label it deceptive.",
+    "If a review includes first-person pronouns like 'I' or 'we' frequently, label it truthful.",
+    "If a review lacks first-person references and instead uses impersonal language, label it deceptive.",
+    "If a review contains explicit temporal markers referencing stay dates (e.g., 'last weekend'), label it truthful.",
+    "If a review omits temporal information or contains inconsistent timing references, label it deceptive.",
+    "If a review exhibits exaggerated positive or negative sentiment beyond typical emotional range, label it deceptive.",
+    "If a review shows balanced and nuanced emotional expression, label it truthful.",
+    "If a review is longer than average with complex sentence structures, label it truthful.",
+    "If a review is shorter and uses simpler sentences, label it deceptive.",
+    "If a review mentions specific staff interactions or local amenities, label it truthful.",
+    "If a review only contains promotional or generic praise without concrete experience, label it deceptive.",
+    "If a review\u2019s temporal references align with verified stay dates, label it truthful.",
+    "If a review\u2019s temporal references contradict verified stay dates or are absent, label it deceptive.",
+    "If a review uses experiential verbs related to staying, sleeping, or visiting, label it truthful."
+  ]
+}

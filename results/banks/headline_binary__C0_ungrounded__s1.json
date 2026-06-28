@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C0_ungrounded",
+  "seed": 1,
+  "bank": [
+    "Headlines with stronger emotional words generate more clicks than those with neutral language.",
+    "Headlines using numbers or lists attract more clicks than those without numerical elements.",
+    "Headlines phrased as questions receive more clicks than declarative headlines.",
+    "Headlines that imply exclusivity or urgency get more clicks than those that do not.",
+    "Headlines containing popular buzzwords or trending terms outperform more generic headlines.",
+    "Shorter headlines (under 10 words) attract more clicks than longer, more complex ones.",
+    "Headlines that include the promise of a solution or benefit generate more clicks than purely informational headlines.",
+    "Headlines using active voice get more clicks than those using passive voice.",
+    "Headlines with personal pronouns ('you', 'your') appeal more and get more clicks than impersonal headlines.",
+    "Headlines that create curiosity or suspense receive more clicks than straightforward, descriptive headlines.",
+    "Headlines with clear, specific topics outperform vague or ambiguous headlines.",
+    "Headlines that highlight well-known celebrities or brands get more clicks than those that do not mention popular entities.",
+    "Headlines using superlatives ('best', 'worst', 'most') attract more clicks than neutral comparatives.",
+    "Headlines with proper capitalization and punctuation get more clicks than those with irregular formatting.",
+    "Headlines that avoid clickbait exaggeration tend to sustain more clicks than overly sensational headlines."
+  ]
+}

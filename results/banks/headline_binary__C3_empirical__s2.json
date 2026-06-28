@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C3_empirical",
+  "seed": 2,
+  "bank": [
+    "Headlines that use provocative or emotionally charged language, including mild sarcasm or irony, can outperform more neutral or empathetic phrasing by eliciting stronger emotional reactions.",
+    "Direct, vivid portrayals of conflict or hardship engage readers more effectively than generalized or abstract appeals to dignity or humanity.",
+    "Headlines that explicitly frame a transformation or contrast within a subject\u2019s identity or role (e.g., 'Recognized for X but now doing Y') increase curiosity and clicks more than subtle or indirect references.",
+    "Rhetorical questions in headlines can be effective when they challenge common behaviors or beliefs, especially if combined with a hint of critique or humor.",
+    "Headlines explicitly referencing viewer or reader skepticism about widespread behaviors or trends invite clicks by tapping into shared doubts or frustrations.",
+    "Using colloquial, conversational expressions with a tone of mild confrontation or challenge ('How About No', 'Ha Ha Ha, Not In this Hospital') can increase clicks by creating an engaging voice that feels authentic and relatable.",
+    "Headlines that highlight concrete, relatable stakes or values (e.g., specific dollar amounts framed emotionally) perform better than vague or generalized statements about importance.",
+    "Narrative-driven headlines that clearly state the outcome or result of a story ('The Result Is Better Than Any Reality Show') tend to outperform more indirect, metaphorical comparisons.",
+    "Headlines that employ contrastive structures, especially those that set up expectations and then overturn or clarify them, generate more clicks than straightforward descriptive statements.",
+    "Using second-person pronouns or inclusive language is effective only when it directly challenges the reader or invites personal reflection; otherwise, it may underperform.",
+    "Subtle humor or irony embedded in headlines is more effective when it aligns with the topic\u2019s tone and is not overly forced or vague.",
+    "Moderate headline length remains important, but clarity and the ability to quickly convey the main point or emotional hook take precedence over rhythm or flow alone.",
+    "Headlines that invite readers to question or reconsider common practices or societal norms attract more clicks than purely positive or reassuring headlines.",
+    "Explicit framing of headlines around conflict, injustice, or societal critique tends to outperform neutral or conciliatory tones in topics involving social issues.",
+    "Avoid headline phrasing that is overly abstract or generalized; instead, prioritize concrete, specific language that evokes vivid images or strong emotions."
+  ]
+}

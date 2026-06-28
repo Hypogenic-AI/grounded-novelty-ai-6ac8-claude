@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C3_empirical",
+  "seed": 0,
+  "bank": [
+    "Reviews containing specific personal experiences with room issues (e.g., bed bugs, stains, broken items, maintenance problems) that include detailed descriptions of guest interactions and follow-up actions tend to be truthful.",
+    "Reviews describing negative service experiences with vague or generalized staff complaints, lacking concrete examples or resolution attempts, tend to be deceptive.",
+    "Reviews with detailed descriptions of hotel amenities combined with first-person stay details (e.g., specific meals, spa treatments, wifi usage) that include both positives and negatives tend to be truthful.",
+    "Reviews mentioning general positive comments without specific incidents, personal difficulties, or concrete stay details tend to be deceptive.",
+    "Reviews including concrete details about booking process, room selection, payment experiences, and any subsequent issues or complaints are truthful, but claims of positive experiences lacking specific stay-related details or plausible context may be deceptive.",
+    "Reviews describing cleanliness issues with specific evidence (e.g., blood, dirt, smells) and ongoing complaints to staff without resolution tend to be truthful.",
+    "Reviews that mention loyalty programs, membership perks, or negotiated rates with specific benefits and personal usage tend to be truthful.",
+    "Reviews emphasizing ambiance and location with specific references to nearby landmarks, accessibility, and personal experiences in these contexts tend to be truthful.",
+    "Reviews using vague superlatives and excessive praise without critical details or personal stay context often indicate deception.",
+    "Reviews describing problems with room availability, overbooking, or compensation attempts that include detailed guest interactions and outcomes tend to be truthful.",
+    "Reviews focusing on poor service due to rude or inattentive staff with concrete examples, detailed timelines, and guest reactions tend to be truthful.",
+    "Reviews that include explicit comparisons to other hotels or chains with personal stay history and specific reasons for preference are truthful.",
+    "Reviews highlighting functional complaints about hotel facilities (e.g., slow elevators, no hot water) with specific times, durations, and impacts are truthful.",
+    "Reviews describing emotional responses to service failures or cleanliness issues that lack specific events or concrete evidence tend to be deceptive.",
+    "Reviews that provide actionable advice or warnings to future guests based on personal stay experience, including detailed context and outcomes, are truthful."
+  ]
+}

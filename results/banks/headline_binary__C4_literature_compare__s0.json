@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C4_literature_compare",
+  "seed": 0,
+  "bank": [
+    "Headline with more emotional or sensational wording gets more clicks than a neutral headline.",
+    "Headline that includes a number or list format gets more clicks than one without numbers.",
+    "Headline that poses a question or creates curiosity gets more clicks than a straightforward statement.",
+    "Headline that uses shorter, simpler words gets more clicks than one with complex vocabulary.",
+    "Headline that directly addresses the reader (using 'you' or 'your') gets more clicks than a headline without direct address.",
+    "Headline that includes a time reference (e.g., 'today', 'now', 'this week') gets more clicks than one without a time reference.",
+    "Headline that uses active voice gets more clicks than a headline written in passive voice.",
+    "Headline that mentions a well-known person or entity gets more clicks than one that does not.",
+    "Headline that emphasizes exclusivity or rarity (e.g., 'only', 'exclusive', 'never seen before') gets more clicks than one without such emphasis.",
+    "Headline that uses strong verbs or action words gets more clicks than one with weak or generic verbs.",
+    "Headline that creates a sense of urgency or scarcity (e.g., 'limited time', 'ending soon') gets more clicks than one without urgency.",
+    "Headline that includes a surprising or counterintuitive claim gets more clicks than one with an expected statement.",
+    "Headline that uses humor or wordplay gets more clicks than a straightforward or serious headline.",
+    "Headline that highlights personal benefit or practical value to the reader gets more clicks than one without clear benefits.",
+    "Headline that incorporates local or community-specific references gets more clicks than a generic or global headline."
+  ]
+}

@@ -1,0 +1,76 @@
+\section{Introduction}
+\label{sec:intro}
+
+Can large language models (LLMs) generate \emph{good} scientific ideas? Skepticism
+is widespread: model-generated hypotheses tend to be either incremental or
+implausibly radical, and ``novelty'' itself resists definition~\citep{si2024llm}.
+A recurring answer in recent work is to \emph{ground} ideation rather than prompt
+for ideas abstractly. SciMON grounds in retrieved literature~\citep{wang2023scimon};
+HypoGeniC grounds in labeled data~\citep{zhou2024hypogenic}; ResearchAgent grounds
+in structured proposals~\citep{baek2024researchagent}; and SGA grounds in simulation
+feedback~\citep{ma2024sga}. Each reports that its grounded method beats an
+ungrounded prompt.
+
+\para{Why this matters.} If we can say \emph{which kinds of grounding} turn raw LLM
+ideation into useful ideas---and at what cost---we give practitioners a concrete
+recipe and move the field past single-number ``novelty'' leaderboards toward
+grounded usefulness. This is increasingly urgent because the ungrounded baseline is
+a moving target: the 2023-era finding that grounding helps was measured against much
+weaker models, and a strong modern LLM may already encode much of what grounding was
+meant to supply.
+
+\para{The gap.} Every prior method grounds in \emph{one} way and compares to an
+ungrounded prompt. Nobody has held task, model, generation budget, and evaluation
+metric fixed and ablated the grounding \emph{mechanisms} against each other. So we
+cannot say whether literature comparison, induction, empirical feedback, deduction,
+or proposal writing is responsible for the reported gains---or whether, with a strong
+2025 model, any of them still helps. We also heed the field's central caveat, that
+novelty is over-trusted and can flip once ideas are executed~\citep{si2024llm}, by
+scoring \emph{grounded usefulness} rather than a bare novelty score.
+
+\para{Our approach.} We build the first single-protocol, head-to-head ablation of
+six ideation regimes: one ungrounded control (C0) and five grounding mechanisms
+(deduction, induction, empirical small-experiments/outcome-imagination, literature
+comparison, and proposal writing). We operationalize an ``idea'' as a \emph{task
+hypothesis}---an explicit decision rule explaining a binary classification
+phenomenon---and ``better'' as how accurately an LLM applying a bank of $15$ such
+hypotheses predicts held-out labels, in-distribution (\IND) and out-of-distribution
+(\OOD). Holding the model (\gptmini), bank size, and an identical evaluator fixed,
+the \emph{only} variable is how the ideas were grounded. We run all six regimes on
+three \hypogenic{} tasks across three seeds ($54$ banks, $\approx 11.9$k API calls,
+$\approx\$3$), and complement accuracy with diversity, a novelty--usefulness
+analysis, and a cost/benefit accounting.
+
+\para{What we find.} Grounding does not uniformly help. Pooled across regimes,
+grounded banks are statistically indistinguishable from---and slightly below---the
+ungrounded control (\IND{} $-1.2$ pts, \OOD{} $-2.5$ pts, both n.s.). But the
+mechanism matters decisively: empirical small-experiment grounding is the only
+regime that significantly improves \IND{} accuracy ($+4.4$ pts, Cohen's $d=1.09$,
+$p=0.02$), while proposal writing significantly \emph{hurts} ($-5.7$ pts, $d=-1.56$,
+$p=0.008$) and collapses diversity. Data grounding can \emph{overfit}: on deceptive
+reviews the ungrounded model transfers near-perfectly \OOD{} ($0.97$) using general
+priors, whereas data-grounded rules latch onto dataset-specific surface cues and drop
+to $0.78$--$0.82$ \OOD. Empirical grounding's gains cost roughly $80\times$ the
+generation tokens of the control.
+
+\para{Contributions.}
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=2pt]
+    \item We conduct the first single-protocol, head-to-head ablation of six LLM
+    ideation regimes, holding model, task suite, generation budget, and evaluation
+    fixed and scoring each by objective downstream utility (\IND{} and \OOD{}
+    accuracy).
+    \item We show that grounding does not uniformly help a strong LLM, and isolate
+    the one mechanism that does: grounding in empirical feedback (test-and-revise)
+    is the only regime that significantly improves in-distribution usefulness.
+    \item We surface two cautions the field under-reports: pure elaboration
+    (proposal writing) actively degrades idea quality and diversity, and data
+    grounding can trade out-of-distribution robustness for in-distribution fit.
+    \item We complement accuracy with diversity, a novelty--usefulness analysis (a
+    task-difficulty confound that vanishes within task), and a cost/benefit
+    accounting, and release all banks, predictions, and statistics for reproducibility.
+\end{itemize}
+
+The rest of the paper reviews related work (\secref{sec:related}), details the
+protocol and six regimes (\secref{sec:method}), presents results
+(\secref{sec:results}), and discusses implications and limitations
+(\secref{sec:discussion}).

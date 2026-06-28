@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C2_induction",
+  "seed": 2,
+  "bank": [
+    "Reviews describing specific negative experiences, detailed problems, or inconveniences during an actual stay are truthful.",
+    "Reviews that mention renovations, construction noise, or dated facilities with firsthand detail are truthful.",
+    "Reviews providing detailed, nuanced descriptions of room layout, furniture, or hotel services imply the reviewer stayed and are truthful.",
+    "Reviews emphasizing poor customer service experienced personally (e.g., slow staff, rude employees, unclean rooms) indicate truthfulness.",
+    "Reviews that express disappointment or frustration from a guest\u2019s perspective with specifics about hotel conditions are truthful.",
+    "Reviews that contain generic praise without personal experience details or that overly emphasize amenities and location are deceptive.",
+    "Reviews using promotional language, superlatives, or sales-like descriptions lacking personal stay details are deceptive.",
+    "Reviews focusing on the hotel\u2019s external reputation, website features, or package deals without personal anecdotes are deceptive.",
+    "Reviews that omit any mention of actual issues, problems, or personal inconveniences during the stay are more likely deceptive.",
+    "Reviews that contain contradictory or unrealistic claims about the hotel\u2019s service or amenities are deceptive.",
+    "Reviews that sound scripted, overly positive, or like advertisements rather than personal narratives are deceptive.",
+    "Reviews that mention specific local attractions, nearby landmarks, or neighborhood details alongside personal stay experiences are truthful.",
+    "Reviews that include complaints about room readiness, cleanliness, or maintenance problems experienced first-hand are truthful.",
+    "Reviews that describe interactions with hotel staff, including specific conversations or responses, indicate truthful stays.",
+    "Reviews that describe emotional or physical discomfort from the stay (e.g., difficulty sleeping, noise, smells) are truthful."
+  ]
+}

@@ -1,0 +1,7 @@
+# Datasets can be large and are reproducible via README download instructions — do not commit data files
+*
+!.gitignore
+!README.md
+!**/README.md
+!**/samples/
+!samples/

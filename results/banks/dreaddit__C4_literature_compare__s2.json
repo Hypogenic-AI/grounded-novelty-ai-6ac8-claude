@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C4_literature_compare",
+  "seed": 2,
+  "bank": [
+    "Posts containing a higher frequency of first-person singular pronouns (e.g., I, me, my) are more likely to indicate 'has stress'.",
+    "Posts with increased use of negative emotion words (e.g., sad, angry, tired) are more likely to be labeled 'has stress'.",
+    "Posts exhibiting a greater density of cognitive processing words (e.g., think, know, because) are more likely to indicate 'has stress'.",
+    "Posts with frequent expressions of physical symptoms (e.g., headache, fatigue, insomnia) are more likely to be classified as 'has stress'.",
+    "Posts containing fewer positive emotion words (e.g., happy, love, joy) are more likely to be labeled 'has stress'.",
+    "Posts that use more absolutist terms (e.g., always, never, completely) are more likely to indicate 'has stress'.",
+    "Posts with a higher frequency of questions or uncertainty markers (e.g., maybe, unsure, what if) are more likely to be labeled 'has stress'.",
+    "Posts showing disrupted temporal references or inconsistencies in time expressions (e.g., switching between past and present tense irregularly) are more likely to indicate 'has stress'.",
+    "Posts containing more social withdrawal indicators or mentions of isolation (e.g., alone, isolated, ignored) are more likely to be classified as 'has stress'.",
+    "Posts with reduced lexical diversity or repetitive wording patterns are more likely to be labeled 'has stress'.",
+    "Posts exhibiting increased use of sleep-related complaints or disturbances (e.g., insomnia, restless, awake) are more likely to indicate 'has stress'.",
+    "Posts containing more references to time pressure or deadlines (e.g., due, urgent, soon) are more likely to be labeled 'has stress'.",
+    "Posts with a higher frequency of self-critical or negative self-evaluation phrases (e.g., failure, worthless, stupid) are more likely to indicate 'has stress'.",
+    "Posts featuring reduced use of future-oriented language (e.g., planning, hope, will) are more likely to be classified as 'has stress'.",
+    "Posts that include more mentions of coping mechanisms or help-seeking behavior (e.g., therapy, medication, talk) are more likely to indicate 'has stress'."
+  ]
+}

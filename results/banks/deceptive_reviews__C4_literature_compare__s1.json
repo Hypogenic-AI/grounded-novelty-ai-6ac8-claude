@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C4_literature_compare",
+  "seed": 1,
+  "bank": [
+    "Reviews with excessive use of superlatives and overly positive language are more likely deceptive.",
+    "Reviews containing specific details about the hotel amenities and local surroundings are more likely truthful.",
+    "Reviews that mention personal experiences or incidents during the stay are more likely truthful.",
+    "Reviews that use generic phrases and lack specific time references are more likely deceptive.",
+    "Reviews posted immediately after hotel opening dates without user history are more likely deceptive.",
+    "Reviews with inconsistent or contradictory statements about the hotel services are more likely deceptive.",
+    "Reviews exhibiting unusual linguistic patterns such as unnatural sentence structure or awkward phrasing are more likely deceptive.",
+    "Reviews that reference external verification methods like photos or receipts are more likely truthful.",
+    "Reviews that avoid mentioning staff interactions or customer service experiences are more likely deceptive.",
+    "Reviews written in a language or dialect inconsistent with the hotel's location are more likely deceptive.",
+    "Reviews that include balanced mentions of both positive and negative aspects of the hotel are more likely truthful.",
+    "Reviews that show temporal inconsistencies, such as unrealistic timelines for events during the stay, are more likely deceptive.",
+    "Reviews that employ persuasive or argumentative language aimed at convincing readers are more likely deceptive.",
+    "Reviews containing repetitive content or paraphrasing from other reviews are more likely deceptive.",
+    "Reviews authored by users with a history of multiple reviews across unrelated locations are more likely deceptive."
+  ]
+}

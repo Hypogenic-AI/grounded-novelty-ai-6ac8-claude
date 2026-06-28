@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C2_induction",
+  "seed": 0,
+  "bank": [
+    "Reviews containing specific personal experiences with room issues (e.g., bed bugs, stains, broken items) are truthful.",
+    "Reviews describing negative service experiences with detailed staff interactions and unresolved complaints tend to be deceptive.",
+    "Reviews with detailed descriptions of hotel amenities and personalized experiences (e.g., specific meals, spa treatments, wifi usage) are often deceptive.",
+    "Reviews mentioning general positive comments without specific incidents or personal difficulties tend to be deceptive.",
+    "Reviews including concrete details about booking process, room selection, and payment experiences are truthful.",
+    "Reviews describing cleanliness issues with specific evidence (e.g., blood, dirt, smells) and complaints about housekeeping indicate deception.",
+    "Reviews that mention loyalty programs, membership perks, or negotiated rates with specific benefits tend to be truthful.",
+    "Reviews that emphasize ambiance and location with specific references to nearby landmarks and accessibility are truthful.",
+    "Reviews using vague superlatives and excessive praise without critical details often indicate deception.",
+    "Reviews describing problems with room availability, overbooking, or compensation attempts tend to be truthful.",
+    "Reviews focusing on poor service due to rude or inattentive staff with concrete examples tend to be deceptive.",
+    "Reviews that include explicit comparisons to other hotels or chains with personal stay history are truthful.",
+    "Reviews highlighting functional complaints about hotel facilities (e.g., slow elevators, no hot water) with specific times and impacts are truthful.",
+    "Reviews describing emotional responses to service failures or cleanliness issues with specific events are deceptive.",
+    "Reviews that provide actionable advice or warnings to future guests based on personal experience are truthful."
+  ]
+}

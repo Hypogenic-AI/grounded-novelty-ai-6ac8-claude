@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C4_literature_compare",
+  "seed": 2,
+  "bank": [
+    "Headline with a question format gets more clicks than a declarative headline.",
+    "Headline using numbers or lists gets more clicks than a headline without numbers.",
+    "Headline incorporating emotional or sensational words gets more clicks than a neutral headline.",
+    "Headline that promises practical tips or solutions gets more clicks than a headline that only states facts.",
+    "Headline with shorter length (fewer words) gets more clicks than a longer, more complex headline.",
+    "Headline using first-person perspective (I, we) gets more clicks than third-person perspective.",
+    "Headline featuring a celebrity or well-known figure\u2019s name gets more clicks than one without.",
+    "Headline with a sense of urgency or exclusivity (e.g., 'now', 'breaking') gets more clicks than a neutral time frame.",
+    "Headline employing humor or wordplay gets more clicks than a straightforward headline.",
+    "Headline that includes a direct call-to-action (e.g., 'You need to see this') gets more clicks than one without.",
+    "Headline with a positive sentiment gets more clicks than one with a negative sentiment.",
+    "Headline that uses active voice gets more clicks than one using passive voice.",
+    "Headline that includes a geographic location relevant to the audience gets more clicks than one without location.",
+    "Headline beginning with a strong keyword or theme word gets more clicks than one that starts with filler words.",
+    "Headline that hints at a mystery or incomplete information gets more clicks than a fully explicit headline."
+  ]
+}

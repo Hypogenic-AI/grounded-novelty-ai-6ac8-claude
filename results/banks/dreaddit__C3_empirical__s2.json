@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C3_empirical",
+  "seed": 2,
+  "bank": [
+    "Posts expressing ongoing, intense feelings of anxiety, dread, guilt, or panic attacks that significantly impair daily functioning indicate 'has stress'.",
+    "Descriptions of trauma or PTSD symptoms accompanied by current emotional distress and mental health struggles signal 'has stress'.",
+    "Mentions of emotional overwhelm, dissociation, or persistent feelings of worthlessness or being unlovable correspond to 'has stress'.",
+    "Narratives involving abusive or harmful relationships with explicit negative emotional impact or current distress suggest 'has stress'.",
+    "References to substance abuse or withdrawal linked to ongoing negative mental effects imply 'has stress'.",
+    "Posts describing vivid nightmares or intrusive, distressing thoughts that cause present suffering reflect 'has stress'.",
+    "Statements about being mentally or emotionally stuck, frozen, or unable to act with clear distress indicate 'has stress'.",
+    "Posts focused on recovery, acceptance, or positive coping strategies without current negative affect imply 'no stress'.",
+    "Narratives that are mainly factual, neutral, or informational without clear signs of ongoing emotional distress correspond to 'no stress'.",
+    "Mentions of positive or hopeful social interactions, future plans, or moments of peace and clarity suggest 'no stress'.",
+    "Posts discussing mental health topics abstractly, seeking advice, or reflecting without personal emotional burden indicate 'no stress'.",
+    "Descriptions of interpersonal conflicts or difficult situations without explicit signs of current personal emotional distress or suffering imply 'no stress'.",
+    "Posts that vent briefly or express cautious or tentative thoughts without clear ongoing emotional turmoil, hopelessness, or impairment correspond to 'no stress'.",
+    "Mentions of past events or ongoing difficult circumstances without explicit current emotional distress or impairment suggest 'no stress'.",
+    "Use of language indicating resilience, gratitude, acceptance, self-awareness, or supportive intentions corresponds to 'no stress'."
+  ]
+}

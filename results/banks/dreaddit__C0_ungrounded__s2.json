@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C0_ungrounded",
+  "seed": 2,
+  "bank": [
+    "Posts containing first-person singular pronouns combined with negative emotion words indicate 'has stress'.",
+    "High frequency of words related to sleep disturbances (e.g., 'insomnia', 'can't sleep') signals 'has stress'.",
+    "Use of absolutist terms (e.g., 'always', 'never') correlates with 'has stress'.",
+    "Posts with a sudden increase in posting frequency from a user suggest 'has stress'.",
+    "Frequent mentions of physical symptoms (e.g., 'headache', 'pounding heart') indicate 'has stress'.",
+    "Posts expressing feelings of being overwhelmed or unable to cope predict 'has stress'.",
+    "Use of negations with positive emotion words (e.g., 'not happy') signifies 'has stress'.",
+    "Posts with higher lexical diversity and complex sentence structure are associated with 'no stress'.",
+    "Frequent use of social engagement words (e.g., 'friends', 'party') correlates with 'no stress'.",
+    "Increased use of question marks and expressions of uncertainty (e.g., 'what if') indicate 'has stress'.",
+    "Posts including coping strategy mentions (e.g., 'meditation', 'therapy') suggest 'has stress' but proactive management.",
+    "Use of humor or sarcasm marks (e.g., emojis, 'lol') is more common in 'no stress' posts.",
+    "Posts with temporal references to future plans or goals (e.g., 'next week', 'looking forward') predict 'no stress'.",
+    "Repeated use of words related to exhaustion or burnout (e.g., 'tired', 'drained') signals 'has stress'.",
+    "Posts featuring direct requests for help or advice (e.g., 'need help', 'any advice') indicate 'has stress'."
+  ]
+}

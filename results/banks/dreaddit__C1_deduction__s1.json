@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C1_deduction",
+  "seed": 1,
+  "bank": [
+    "Posts containing a high frequency of negative emotion words are more likely to be labeled 'has stress'.",
+    "Posts with elevated first-person singular pronoun usage are more likely to indicate stress.",
+    "Posts featuring more tentative language and uncertainty markers correlate with stress.",
+    "Posts that include direct mentions of stress-related keywords are indicative of stress.",
+    "Posts expressing feelings of loneliness or social isolation signal stress.",
+    "Posts describing physical symptoms commonly associated with stress indicate stress.",
+    "Posts with increased use of negations and intensifiers correlate with stress.",
+    "Posts with a higher frequency of past or present tense verbs compared to future tense verbs are more likely stressful.",
+    "Posts containing expressions of helplessness or loss of control are indicative of stress.",
+    "Posts with lower lexical diversity or increased repetition correlate with stress.",
+    "Posts that show reduced use of positive emotion words indicate stress.",
+    "Posts with more self-referential phrases related to personal problems are more likely stressed.",
+    "Posts with a higher ratio of question marks to sentences indicate uncertainty and possible stress.",
+    "Posts that use more first-person plural pronouns relative to singular pronouns are less likely to indicate stress.",
+    "Posts with strong emotional intensifiers combined with negative words are more likely labeled as 'has stress'."
+  ]
+}

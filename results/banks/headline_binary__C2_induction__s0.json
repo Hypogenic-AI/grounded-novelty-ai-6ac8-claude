@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C2_induction",
+  "seed": 0,
+  "bank": [
+    "Headlines using curiosity gaps with unexpected or provocative elements tend to get more clicks.",
+    "Headlines phrased as intriguing questions increase user engagement and clicks.",
+    "Headlines that promise a surprising or shocking revelation outperform neutral or straightforward ones.",
+    "Headlines using more concrete, specific details or numbers attract more clicks than vague statements.",
+    "Headlines employing emotional or sensational language elicit more clicks than purely factual or calm tones.",
+    "Headlines that frame stories with personal or human interest angles gain higher clicks.",
+    "Headlines with active voice and dynamic verbs are more clickable than those with passive or static phrasing.",
+    "Headlines that imply a narrative or transformation (e.g., 'turned', 'went from... to...') invite more clicks.",
+    "Headlines that highlight conflict, controversy, or tension attract more clicks than harmonious or neutral headlines.",
+    "Headlines using direct address or inclusive pronouns (you, we) often generate more clicks.",
+    "Headlines that emphasize uniqueness or rarity of the story experience more clicks.",
+    "Headlines that create a sense of urgency or immediacy tend to get more clicks.",
+    "Headlines that use humor or irony can increase clicks if it aligns well with the story tone.",
+    "Headlines that avoid redundant or minor wording changes and focus on stronger impact words tend to perform better.",
+    "Headlines that open with a strong, relevant named entity (person, place, event) often attract more clicks."
+  ]
+}

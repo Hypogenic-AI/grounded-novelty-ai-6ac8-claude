@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C5_proposal",
+  "seed": 0,
+  "bank": [
+    "If Headline 1 contains an interrogative form and Headline 2 does not, predict Headline 1 has more clicks.",
+    "If Headline 2 contains an interrogative form and Headline 1 does not, predict Headline 2 has more clicks.",
+    "If Headline 1 uses teaser phrases implying incomplete information more than Headline 2, predict Headline 1 has more clicks.",
+    "If Headline 2 uses teaser phrases implying incomplete information more than Headline 1, predict Headline 2 has more clicks.",
+    "If Headline 1 has a higher density of emotionally charged words than Headline 2, predict Headline 1 has more clicks.",
+    "If Headline 2 has a higher density of emotionally charged words than Headline 1, predict Headline 2 has more clicks.",
+    "If Headline 1 is shorter in word count than Headline 2, predict Headline 1 has more clicks.",
+    "If Headline 2 is shorter in word count than Headline 1, predict Headline 2 has more clicks.",
+    "If Headline 1 has simpler syntactic structure (e.g., lower sentence complexity) than Headline 2, predict Headline 1 has more clicks.",
+    "If Headline 2 has simpler syntactic structure than Headline 1, predict Headline 2 has more clicks.",
+    "If Headline 1 contains more personal pronouns (e.g., you, your) than Headline 2, predict Headline 1 has more clicks.",
+    "If Headline 2 contains more personal pronouns than Headline 1, predict Headline 2 has more clicks.",
+    "If Headline 1 includes direct calls to action more than Headline 2, predict Headline 1 has more clicks.",
+    "If Headline 2 includes direct calls to action more than Headline 1, predict Headline 2 has more clicks.",
+    "If Headline 1 combines multiple engagement features (curiosity gap, emotional words, personal pronouns) more than Headline 2, predict Headline 1 has more clicks."
+  ]
+}

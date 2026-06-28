@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C3_empirical",
+  "seed": 0,
+  "bank": [
+    "Headlines that use clear and direct language addressing the reader\u2019s curiosity or concerns tend to outperform those relying on conditional or complex phrasing.",
+    "Headlines that explicitly state a surprising or definitive fact or claim often attract more clicks than those phrased as questions or hypotheticals.",
+    "Headlines that avoid overly complex or convoluted sentence structures perform better than those that require significant inference or unpacking.",
+    "Headlines that include strong, concrete emotional triggers (e.g., outrage, awe, empathy) linked directly to relatable social issues tend to generate higher engagement.",
+    "Headlines that leverage social or political relevance with clear stakes or consequences tend to attract more clicks than ambiguous or indirect references.",
+    "Headlines that employ vivid, superlative, or absolute language to emphasize uniqueness or importance often outperform more reserved or tentative wording.",
+    "Headlines that position the content as an exclusive insight, revelation, or expert opinion can outperform casual or generic descriptions.",
+    "Headlines that incorporate familiar cultural references or analogies effectively when they are accessible and clearly connected to the topic tend to engage readers better.",
+    "Headlines that use active voice and dynamic verbs to create a sense of immediacy or action often attract more clicks than passive or abstract phrasing.",
+    "Headlines that avoid overusing colloquialisms or slang maintain broader appeal and tend to perform better on diverse audiences.",
+    "Headlines that balance emotional appeal with intellectual intrigue by offering a clear premise or narrative hook outperform those relying solely on emotional or sensational language.",
+    "Headlines that include an element of unresolved tension or controversy with a clear implied payoff or explanation tend to generate curiosity and clicks.",
+    "Headlines that avoid ambiguity in referencing social groups or contentious topics perform better; clarity about who is involved or affected increases engagement.",
+    "Headlines that integrate subtle humor or irony are effective only when the tone aligns well with the seriousness of the topic and audience expectations.",
+    "Headlines that invite readers directly into a narrative or scenario via second-person address or relatable situations tend to outperform those that are more abstract or detached."
+  ]
+}

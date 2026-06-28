@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C1_deduction",
+  "seed": 0,
+  "bank": [
+    "Posts containing a high frequency of negative emotion words are indicative of stress.",
+    "Posts with a high ratio of first-person singular pronouns reflect self-focus associated with stress.",
+    "Posts exhibiting repetitive mention of the same negative themes suggest rumination and stress.",
+    "Posts containing absolutist terms signal cognitive distortions typical of stress.",
+    "Posts with fragmented or incoherent sentence structures indicate cognitive load due to stress.",
+    "Posts expressing physical symptoms are more likely to indicate stress.",
+    "Posts requesting help or social support reflect stress-induced social withdrawal or seeking.",
+    "Posts focusing heavily on past negative events are associated with stress-related rumination.",
+    "Posts focusing on future worries or uncertainty indicate anticipatory stress.",
+    "Posts with increased use of negations correlate with stress.",
+    "Posts containing swear words or expressions of frustration are indicative of stress.",
+    "Posts with reduced use of positive emotion words are more likely to reflect stress.",
+    "Posts exhibiting increased use of modal verbs expressing uncertainty suggest stress.",
+    "Posts with higher frequency of self-referential cognitive process words may indicate stress-related rumination.",
+    "Posts exhibiting sudden shifts in topic or tone suggest disorganized thought patterns linked to stress."
+  ]
+}

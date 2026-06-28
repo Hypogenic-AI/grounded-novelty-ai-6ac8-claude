@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C1_deduction",
+  "seed": 2,
+  "bank": [
+    "Headline with stronger emotional words gets more clicks",
+    "Headline that is clearer and simpler gets more clicks",
+    "Headline implying new or unique info gets more clicks",
+    "Headline with specific details or numbers gets more clicks",
+    "Headline conveying urgency or timeliness gets more clicks",
+    "Headline suggesting personal relevance gets more clicks",
+    "Headline posing a question or curiosity gap gets more clicks",
+    "Headline of moderate length (10-15 words) gets more clicks",
+    "Headline containing power words gets more clicks",
+    "Headline avoiding misleading clickbait gets more clicks",
+    "Headline with negative framing gets more clicks when news is serious",
+    "Headline with positive framing gets more clicks when news is uplifting",
+    "Headline including numbers or list indicators gets more clicks",
+    "Headline mentioning known names or entities gets more clicks",
+    "Headline in active voice gets more clicks"
+  ]
+}

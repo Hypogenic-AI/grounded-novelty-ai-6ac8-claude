@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C2_induction",
+  "seed": 1,
+  "bank": [
+    "Headlines using direct challenges or dares ('I dare you') attract more clicks than descriptive statements.",
+    "Headlines that imply revealing secret or shocking information generate more clicks than empathetic or moral appeals.",
+    "Headlines phrased as intriguing questions or puzzles encourage more clicks than statements of opinion.",
+    "Inclusion of strong emotional or controversial language (e.g., 'No Good,' 'Ha Ha Ha') increases click appeal.",
+    "Headlines that create curiosity by implying a surprising or unexpected outcome outperform straightforward narratives.",
+    "Use of first-person or conversational tone ('Let's see what happens,' 'I bet you're doing it wrong') tends to increase clicks.",
+    "Headlines emphasizing conflict or injustice compel more clicks than neutral descriptions.",
+    "Positive framing of action or potential benefit (e.g., 'Can Actually Help You') attracts more clicks than negative framing.",
+    "Headlines that reference a well-known person or event paired with a dramatic moment get more clicks.",
+    "More concise and direct headlines outperform longer, more complex or ambiguous ones.",
+    "Headlines that feature a narrative hook or cliffhanger (e.g., 'Then Cops Came,' 'Took It Home') generate more clicks.",
+    "Use of colloquial or trendy language ('Like \u2014 Totally \u2014 Whatever') can increase click rates when it resonates with the audience.",
+    "Headlines that suggest exclusive or insider knowledge ('Hidden In The Harvest') outperform general statements.",
+    "Headlines that imply social critique or call out systemic issues encourage more clicks than personal anecdotes.",
+    "Headlines with conditional statements or hypotheticals ('If You Take Any Of This Advice') attract more clicks than absolute statements."
+  ]
+}

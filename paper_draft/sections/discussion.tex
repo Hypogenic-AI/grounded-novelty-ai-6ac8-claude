@@ -1,0 +1,72 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\para{Why ungrounded is so strong now.} The control's banks already recite the
+\emph{right} expert-level features. For \dreaddit, \gptmini{} ungrounded produces
+textbook stress markers---first-person pronouns, absolutist words, sleep disturbance,
+inability to cope---without ever seeing data. A strong model's parametric prior is
+itself a form of grounding, acquired in pretraining. This is the crux of our partly
+negative result: the 2023-era finding ``grounding beats ungrounded prompting'' was
+measured against much weaker baselines; with a 2025 model the ungrounded control is a
+strong, often-transferable starting point, which shrinks grounding's headroom.
+
+\para{Why empirical grounding is the exception.} \Cempirical{} (C3) is the only
+regime that changes its ideas in response to evidence: it tests the bank, observes
+concrete mistakes, and revises, producing richer rules (\eg ``intrusive thoughts /
+trauma / self-blame with ongoing distress''). This closed loop is exactly the ``small
+experiments + outcome imagination'' grounding the hypothesis names, and it is the one
+mechanism that reliably lifts \IND{} accuracy ($d{=}1.09$). The catch is twofold: its
+\IND{} gain does not transfer \OOD, and it is by far the most expensive regime
+($\sim\!80\times$ tokens).
+
+\para{Why proposal writing backfires.} Distilling a prose proposal into rules yields
+rigid, symmetric ``if high $X$ $\rightarrow$ A / if low $X$ $\rightarrow$ B''
+statements with the lowest diversity of any regime. The elaboration adds words, not
+discriminative power, and the brittle thresholds misfire. This is a concrete instance
+of LLM ideation that looks thorough while being measurably less useful---a warning
+against equating structured elaboration with idea quality.
+
+\para{The overfitting result.} On \deceptive, data grounding helped \IND{} but
+\emph{hurt} \OOD, because the learned rules encode dataset-specific surface cues that
+do not transfer, whereas the ungrounded prior captures general structure that does.
+Prior work emphasizes data grounding's \OOD{} \emph{wins}; under one protocol with a
+strong model we find it can \emph{trade} \OOD{} robustness for \IND{} fit. (Here
+\deceptive's \OOD{} split is in fact easier than its \IND{} split for general priors,
+which amplifies the effect; the within-split grounded-vs-ungrounded comparison still
+holds.) The practical lesson is that ``ground in data'' should come with an
+\OOD{} check, not an assumption of transfer.
+
+\para{Verdict on the hypotheses.} The hypothesis ``grounding makes LLM ideas better''
+is \emph{refuted as a blanket claim} but \emph{supported for one specific mechanism}.
+H1 (grounding helps overall) is not supported. H2 (empirical grounding strongest) is
+partially supported: empirical grounding leads \IND, but the full predicted ordering
+does not hold. H3 (grounding helps most \OOD) is not supported---often the reverse.
+H4 (novelty $\neq$ usefulness) is confirmed once the task-difficulty confound is
+removed. The headline takeaway: ``ground your ideation'' is too coarse a prescription
+for today's strong LLMs; \emph{grounding in empirical feedback} is the one mechanism
+that reliably adds value, pure elaboration harms, and data grounding's benefit is
+conditional.
+
+\para{Limitations.} (1)~\emph{Tasks and construct.} We use three binary text-classification
+tasks (one near chance), and operationalize ``idea quality'' as downstream label
+accuracy. This captures grounded usefulness but not open-ended scientific
+creativity; idea-level benchmarks were out of scope. (2)~\emph{Single model family.}
+Generator and evaluator are both \gptmini. A stronger ungrounded baseline would
+likely shrink grounding's value further, while a weaker model might restore the
+classic grounding wins; cross-model replication is the key next step.
+(3)~\emph{Power.} We have $9$ paired cells per comparison (and only $6$ points per
+task for the within-task novelty analysis); effect \emph{directions} are clear, but
+some non-significant results may be power-limited, and \headline{} contributes mostly
+noise. (4)~\emph{One instantiation per regime.} Each grounding mechanism is one
+reasonable design; stronger literature grounding (real retrieval over papers) or
+longer empirical loops could change the standings. (5)~\emph{Evaluator ceiling.} A
+single shared evaluator is fair across regimes but caps the measurable quality of any
+hypothesis.
+
+\para{Broader implications.} For practitioners, the message is to spend grounding
+effort where it pays: a cheap ungrounded prompt of a capable model is a strong
+default, empirical test-and-revise is worth its cost when in-distribution accuracy is
+the goal and budget allows, and structured elaboration should be treated with
+suspicion. For researchers, single-grounding comparisons against weak baselines can
+overstate grounding's value; mechanism-level, single-protocol ablations with strong
+controls give a more honest picture.

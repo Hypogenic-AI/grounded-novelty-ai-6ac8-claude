@@ -1,0 +1,58 @@
+\section{Related Work}
+\label{sec:related}
+
+\para{Literature-grounded ideation.} A large body of work grounds idea generation
+in retrieved prior art. \scimon{} retrieves inspirations and runs an iterative
+``novelty-boosting'' loop that forces each idea to differ from its $k$ nearest
+neighbors, raising human-judged novelty for $46$--$58\%$ of
+ideas~\citep{wang2023scimon}. ResearchAgent traverses citation graphs and an
+entity knowledge store~\citep{baek2024researchagent}; Chain-of-Ideas induces the
+developmental trend of a field before proposing~\citep{li2024coi}; Nova plans and
+retrieves each round to keep ideas novel~\citep{hu2024nova}; and MOOSE-Chem composes
+hypotheses from background plus deliberately non-neighboring
+inspirations~\citep{yang2024moosechem}. We instantiate this family as our literature-
+comparison regime, but---to keep the ablation leakage-controlled and single-model---we
+differentiate against the model's own accumulating idea pool rather than an external
+corpus. Unlike these systems, our goal is not to build a better literature-grounded
+generator but to place literature comparison \emph{on the same footing} as other
+grounding mechanisms.
+
+\para{Data-driven and empirical grounding.} \hypogenic{} induces explanatory
+hypotheses from labeled examples and refines them with a bandit-style
+reward tied to predictive accuracy, beating few-shot prompting by $3.3$--$31.7\%$ and
+even fine-tuned oracles~\citep{zhou2024hypogenic}. Literature Meets Data shows
+literature and data are complementary, improving \OOD{} accuracy by
+$8.97\%$ over few-shot~\citep{liu2024literature}. SGA closes the loop with a
+differentiable simulator, where removing the simulation grounding collapses
+performance by orders of magnitude~\citep{ma2024sga}. \hypobench{} benchmarks these
+methods at scale and finds data-driven and literature+data methods dominate
+inference-only and zero-shot-generation baselines, especially
+\OOD~\citep{liu2025hypobench}. Our induction and empirical regimes are direct,
+minimal instantiations of this line; our contribution is to measure them against the
+\emph{same} ungrounded control and each other, and to report when data grounding
+\emph{overfits} rather than transfers.
+
+\para{Proposal-writing and structured ideation.} Several systems ground ideation by
+writing full structured proposals (problem $\rightarrow$ method $\rightarrow$
+experiments) that are critiqued and revised~\citep{baek2024researchagent,si2024llm}.
+\citet{si2024llm} find LLM proposals are judged more novel than expert humans but
+slightly less feasible. We include proposal writing as a regime and find that, when
+distilled into decision rules, it can \emph{reduce} usefulness and diversity---a
+concrete case of an idea looking thorough while being less useful.
+
+\para{Evaluating ideas.} Because ``is this novel?'' prompts are unreliable, recent
+work grounds the \emph{judgment} in retrieved literature: RAG-Novelty and
+literature-grounded assessment beat ungrounded LLM-as-judge
+prompting~\citep{lin2024schnovel,shahid2025litnovelty}, and idea-level benchmarks
+catalog the trade-offs~\citep{guo2024ideabench,liu2025researchbench}. The consistent
+caveat---\emph{novelty $\neq$ value}, sharpened by the ideation--execution flip of
+\citet{si2024llm}---motivates our choice to score grounded usefulness (downstream
+\IND/\OOD{} accuracy) rather than a bare novelty score, and to test the
+novelty--usefulness relationship directly.
+
+\para{Our position.} Every method above grounds in a single way and beats an
+ungrounded prompt measured with a weaker model. We hold task, model, generation
+budget, and evaluation fixed and ablate the grounding \emph{mechanisms} against one
+another under one protocol. To our knowledge this head-to-head comparison does not
+exist, and it yields a partly negative, mechanism-specific picture that the
+single-grounding literature could not surface.

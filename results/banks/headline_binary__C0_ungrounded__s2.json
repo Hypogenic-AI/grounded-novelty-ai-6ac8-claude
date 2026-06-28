@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C0_ungrounded",
+  "seed": 2,
+  "bank": [
+    "Headline with emotionally charged words gets more clicks than the neutral headline",
+    "Headline using numbers or statistics attracts more clicks than a headline without them",
+    "Headline phrased as a question generates more clicks than a declarative headline",
+    "Headline including a direct call to action receives more clicks than a passive headline",
+    "Headline with shorter length (fewer words) gains more clicks than a longer headline",
+    "Headline containing superlative adjectives (e.g., best, biggest) gets more clicks than a plain headline",
+    "Headline that teases a mystery or surprise results in more clicks than a straightforward headline",
+    "Headline using active voice has more clicks than a headline in passive voice",
+    "Headline mentioning a well-known person or brand draws more clicks than a generic headline",
+    "Headline with informal or conversational tone attracts more clicks than a formal tone headline",
+    "Headline emphasizing urgency or time sensitivity gets more clicks than a neutral timing headline",
+    "Headline employing humor or wordplay receives more clicks than a serious headline",
+    "Headline that highlights personal benefit or relevance brings more clicks than a general headline",
+    "Headline with keywords optimized for search engines generates more clicks than a non-optimized headline",
+    "Headline that includes a clear value proposition or promise gets more clicks than a vague headline"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C5_proposal",
+  "seed": 2,
+  "bank": [
+    "Posts with higher frequency of first-person singular pronouns (I, me) are labeled 'has stress'.",
+    "Posts containing more negative emotion words (e.g., sad, anxious) correspond to 'has stress'.",
+    "Increased use of cognitive processing terms (e.g., think, realize) indicates 'has stress'.",
+    "Higher incidence of tentative language (e.g., maybe, perhaps) predicts 'has stress'.",
+    "Presence of dysfluencies (e.g., fillers, hesitations) correlates with 'has stress' posts.",
+    "Posts with predominantly neutral or positive affect words are labeled 'no stress'.",
+    "Lower frequency of self-referential pronouns (I, me) suggests 'no stress'.",
+    "Technical or task-related frustration terms in technical communities indicate 'has stress'.",
+    "Intensified emotional language in mental health forums signals 'has stress'.",
+    "Posts with fewer cognitive load markers (tentative words, dysfluencies) are labeled 'no stress'.",
+    "Higher usage of social or community-oriented words predicts 'no stress'.",
+    "Cross-community consistent presence of first-person singular and negative emotion words associates with 'has stress'.",
+    "Absence or low frequency of negative affect and cognitive load terms corresponds to 'no stress'.",
+    "Posts containing community-specific stress lexicons (validated by qualitative analysis) are labeled 'has stress'.",
+    "Models trained on linguistic markers from one community can predict 'has stress' in other communities, indicating generalizable features."
+  ]
+}

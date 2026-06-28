@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C4_literature_compare",
+  "seed": 1,
+  "bank": [
+    "Posts containing frequent first-person singular pronouns (e.g., I, me, my) combined with negative emotion words (e.g., sad, anxious, overwhelmed) indicate 'has stress'.",
+    "Posts with a high density of cognitive processing words (e.g., because, think, unsure) and expressions of uncertainty or self-doubt predict 'has stress'.",
+    "Posts exhibiting longer sentence structures with frequent use of negations (e.g., not, never) and past-tense verbs are more likely to correspond to 'has stress'.",
+    "Posts that include mentions of sleep disturbances, fatigue, or physical symptoms (e.g., headache, tired) are classified as 'has stress'.",
+    "Posts primarily consisting of neutral or positive language, absence of negative emotion words, and fewer self-referential terms indicate 'no stress'.",
+    "Posts containing frequent expressions of social withdrawal or isolation (e.g., avoiding people, feeling alone) predict 'has stress'.",
+    "Posts using metaphorical or figurative language related to burden or pressure (e.g., carrying weight, drowning) are indicative of 'has stress'.",
+    "Posts with a high frequency of questions or requests for advice and support signal 'has stress'.",
+    "Posts that demonstrate abrupt shifts in topic or fragmented thought patterns are associated with 'has stress'.",
+    "Posts featuring humor, sarcasm, or irony paired with positive social interactions suggest 'no stress'.",
+    "Posts with frequent use of future-oriented language expressing worry or anticipation of negative outcomes (e.g., afraid, anxious about, worried) indicate 'has stress'.",
+    "Posts that contain frequent mentions of time pressure or deadlines (e.g., due soon, running out of time, urgent) are predictive of 'has stress'.",
+    "Posts featuring language related to loss of control or helplessness (e.g., can't cope, overwhelmed, out of control) correspond to 'has stress'.",
+    "Posts that include frequent positive affirmations or resilience-focused language (e.g., coping well, staying strong, managing) indicate 'no stress'.",
+    "Posts that display a consistent and structured narrative style, with clear logical flow and goal-oriented language, suggest 'no stress'."
+  ]
+}

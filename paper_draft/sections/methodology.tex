@@ -1,0 +1,88 @@
+\section{Methodology}
+\label{sec:method}
+
+\para{Operationalizing the question.} We make ``idea quality'' objective and
+leakage-controlled. An \newterm{idea} is a \emph{task hypothesis}: an explicit,
+general decision rule explaining a binary classification phenomenon (\eg ``stressed
+posts use more first-person pronouns and absolutist words''). ``\newterm{Better}''
+is \emph{grounded usefulness}: when an LLM applies a full bank of $K=15$ hypotheses
+to a new instance, how often it predicts the correct label. This reuses the
+field-standard \hypogenic{} utility metric~\citep{zhou2024hypogenic} and lets us
+compare grounding mechanisms apples-to-apples.
+
+\subsection{Six ideation regimes}
+\label{sec:regimes}
+
+The independent variable is the ideation regime, with six levels: one ungrounded
+control and five grounding mechanisms drawn directly from the strategies named in the
+literature (\secref{sec:related}). \tabref{tab:regimes} summarizes them. Held fixed
+across all regimes: the generator \gptmini{} ($T{=}0.7$), the bank size $K{=}15$, and
+the identical evaluation procedure below. The only thing that varies is \emph{how the
+ideas were grounded}. To avoid leakage, the dataset's expert \texttt{known\_hypotheses}
+are \emph{never} shown during generation; the literature-comparison regime
+differentiates against the model's own accumulating pool, not the expert set.
+
+\begin{table}[t]
+\centering
+\caption{The six ideation regimes: one ungrounded control plus five grounding
+mechanisms. Each generates a bank of $K{=}15$ task hypotheses under \gptmini.
+Generation tokens per bank (rightmost) span nearly two orders of magnitude.}
+\label{tab:regimes}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llp{3.0cm}p{5.6cm}r@{}}
+\toprule
+\textbf{ID} & \textbf{Regime} & \textbf{Grounding} & \textbf{What it sees / does} & \textbf{Tok/bank} \\
+\midrule
+C0 & \Cungrounded{} (control) & none & task description only $\rightarrow$ ``propose $15$ novel hypotheses'' & $460$ \\
+C1 & \Cdeduction{}   & reasoning  & decompose causal mechanisms from first principles $\rightarrow$ derive rules & $918$ \\
+C2 & \Cinduction{}   & data       & $20$ labeled examples $\rightarrow$ induce explanatory rules & $2{,}897$ \\
+C3 & \Cempirical{}   & empirical feedback & induce, then \emph{test} the bank on fresh examples, observe errors, \emph{revise} ($2$ rounds) & $36{,}935$ \\
+C4 & \Cliterature{}  & comparison & generate in rounds, each forced to differ from the prior pool (\scimon-style) & $1{,}150$ \\
+C5 & \Cproposal{}    & elaboration & write a structured proposal $\rightarrow$ distill into rules & $1{,}588$ \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\subsection{Shared evaluator}
+\label{sec:eval}
+
+For every bank, a separate evaluator LLM (\gptmini, $T{=}0$) is shown the $15$
+hypotheses plus one instance and must apply them to answer ``A'' or ``B''. The option
+order is deterministically swapped per item to neutralize position bias. Unparseable
+answers count as wrong (we track an abstain rate, which was $0.0\%$ everywhere). Each
+bank is scored on $100$ \IND{}-test and $100$ \OOD{} items. Because the evaluator
+prompt and items are identical across regimes, differences in accuracy reflect
+differences in the \emph{hypotheses}, not the inference procedure.
+
+\subsection{Datasets}
+\label{sec:data}
+
+We use three \hypogenic{} \emph{real} tasks, all balanced $50/50$: \headline{} (which
+of two headlines gets more clicks), \deceptive{} (fake vs.\ genuine hotel review), and
+\dreaddit{} (stress vs.\ no-stress Reddit post). Each ships a task description and a set
+of expert \texttt{known\_hypotheses}, which we hold out as a novelty anchor and an
+approximate topline reference (never shown during generation). \deceptive{} and
+\dreaddit{} provide an \OOD{} split from a different source/domain; for \headline{} we
+use a disjoint held-out split.
+
+\subsection{Baselines and statistics}
+\label{sec:stats}
+
+The ungrounded control C0 is the key reference; chance/majority is $0.50$ (balanced
+tasks), and the expert known-hypotheses bank is an approximate topline. With $3$ seeds
+$\times\, 3$ tasks we have $9$ paired cells per regime. Our primary test compares each
+grounded regime against C0, paired across cells, using the Wilcoxon signed-rank test
+and a paired $t$-test, reporting Cohen's $d$ effect size and applying a Bonferroni
+correction over the $5$ grounded-vs-control comparisons. We compute bootstrap $95\%$
+confidence intervals ($10$k resamples) over the pooled test items ($n{=}900$ per
+regime per split). We set $\alpha=0.05$.
+
+\subsection{Reproducibility and cost}
+\label{sec:repro}
+
+Seeds are fixed and every API call is disk-cached for idempotent reruns; banks,
+per-item predictions, and statistics are all saved. The full study ($3$ tasks
+$\times\, 6$ regimes $\times\, 3$ seeds, $100$ \IND{} $+\, 100$ \OOD{} eval items)
+used $7.19$M input and $44.8$k output tokens across $11{,}931$ calls ($\approx\$3$),
+with a wall-clock of $\approx 14$ minutes at $32$-way concurrency. No GPU is required;
+the pipeline is API-only.

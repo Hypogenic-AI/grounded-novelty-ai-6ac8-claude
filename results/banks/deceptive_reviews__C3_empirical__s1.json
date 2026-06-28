@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C3_empirical",
+  "seed": 1,
+  "bank": [
+    "Reviews mentioning specific personal experiences with room features, staff interactions, or hotel amenities indicate truthful stays only when these details reflect plausible, typical guest scenarios rather than generic or easily fabricated narratives.",
+    "Descriptions of problems encountered during the stay combined with genuine expressions of disappointment or frustration suggest truthful reviews, especially when the problems are detailed with concrete examples and consequences rather than vague complaints.",
+    "Use of first-person pronouns and past tense verbs suggesting an actual stay should be evaluated alongside contextual plausibility and consistency to avoid misclassifying plausible but fabricated narratives as truthful.",
+    "Reviews focusing mainly on general praise, vague descriptions, or common marketing phrases without concrete, situationally plausible stay details tend to be deceptive, particularly when lacking any personalized context.",
+    "Reviews that emphasize marketing language, superlatives, or clich\u00e9s without specific, nuanced narratives about the stay are often deceptive, especially if they lack sensory or emotional details grounded in realistic experiences.",
+    "Complaints about service quality, rude staff, or unclean conditions more strongly indicate truthful reviews when accompanied by multiple specific incidents, emotional reactions, and contextual details that form a coherent story.",
+    "Descriptions of logistical details such as check-in processes, room location, or transportation suggest truthful stays if these details include personalized, unusual, or time-specific circumstances consistent with typical guest experiences.",
+    "Reviews with inconsistent tone, overly positive language despite mentioning obvious flaws, or contradictory statements tend to be deceptive, reflecting attempts to mask falsehoods or artificially balance the narrative.",
+    "Descriptions of sensory experiences like smells, noises, or physical discomfort indicate truthful reviews when these details are integrated naturally and consistently into the narrative, rather than being inserted superficially.",
+    "Discussion of hotel policies, fees, or charges combined with personal reactions or decisions often indicates truthful stays, especially if the reviewer comments on fairness, impact, or trade-offs in a detailed and plausible manner.",
+    "Mentions of family or companions and their reactions provide evidence of truthful hotel stays when the descriptions include specific interactions, shared experiences, and plausible emotional dynamics rather than generic statements.",
+    "Reviews focusing mainly on the hotel\u2019s image, web photos, or general reputation without detailed personal experience details tend toward deceptive reviews, especially when they rely heavily on external sources rather than firsthand information.",
+    "Detailed narratives about interactions with multiple staff members and service failures suggest truthful reviews when the interactions include emotional or behavioral specifics and the sequence of events is plausible and coherent.",
+    "Reviews that describe emotional responses and concrete consequences of problems (e.g., leaving early, requesting refunds) indicate truthful stays more reliably than emotional language alone, particularly when linked to specific incidents.",
+    "Reviews exhibiting a balanced tone with both positive and negative specific details about the stay, showing nuanced judgment and plausible trade-offs, are more likely truthful than uniformly positive or negative ones."
+  ]
+}

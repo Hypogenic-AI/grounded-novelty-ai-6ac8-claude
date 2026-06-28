@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C3_empirical",
+  "seed": 2,
+  "bank": [
+    "Reviews describing specific positive experiences with concrete, consistent personal details about the hotel stay, including detailed observations of staff uniforms, room features, amenities, and location context, indicate truthful stays.",
+    "Reviews that acknowledge potential negatives such as ongoing renovations or unavailable facilities but provide balanced, firsthand accounts of how these factors affected the stay indicate truthfulness.",
+    "Reviews comparing the hotel with other known properties with specific complaints or praises about amenities, services, or policies, supported by concrete examples, indicate truthful stays.",
+    "Reviews mentioning specific arrival and check-in experiences, including unexpected early check-in, room upgrades, or detailed descriptions of room features, combined with consistent personal anecdotes, indicate truthful stays.",
+    "Reviews detailing specific maintenance or cleanliness issues encountered during the stay, along with attempts to resolve them through interaction with hotel staff, indicate truthful stays when details are coherent and plausible.",
+    "Reviews exhibiting enthusiasm or satisfaction with the hotel that include concrete details on room size, layout, amenities, nearby attractions, and personal experience rather than generic praise indicate truthful stays.",
+    "Reviews containing generic praise without personal experience details or that focus primarily on hotel amenities, location, or reputation without specific stay-related anecdotes are likely deceptive.",
+    "Reviews using promotional language, superlatives, or sales-like descriptions lacking concrete personal stay details or specific examples are likely deceptive.",
+    "Reviews focusing primarily on the hotel\u2019s external reputation, website features, or package deals without personal anecdotes or stay experiences are likely deceptive.",
+    "Reviews omitting mention of actual issues, problems, or personal inconveniences during the stay are more likely deceptive, especially if overly positive or vague.",
+    "Reviews that contain contradictory, exaggerated, or unrealistic claims about the hotel\u2019s service or amenities are likely deceptive.",
+    "Reviews that sound scripted, overly positive, or like advertisements rather than personal narratives, lacking balanced details, are likely deceptive.",
+    "Reviews describing detailed interactions with hotel staff, including specific conversations or responses, indicate truthful stays when plausible and coherent.",
+    "Reviews describing emotional or physical discomfort from the stay (e.g., difficulty sleeping, noise, smells) are truthful when supported by specific circumstances and consistent details.",
+    "Reviews mentioning specific local attractions, nearby landmarks, or neighborhood details alongside personal stay experiences and context indicate truthful stays."
+  ]
+}

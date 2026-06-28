@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C1_deduction",
+  "seed": 0,
+  "bank": [
+    "If review contains specific room or hotel feature details matching known hotel info, then truthful",
+    "If review contains generic phrases with no unique details, then deceptive",
+    "If review shows mixed positive and negative sentiments, then truthful",
+    "If review contains exaggerated extremely positive or negative language without nuance, then deceptive",
+    "If temporal references (dates, seasons) are consistent and plausible, then truthful",
+    "If temporal information is missing or contradicts hotel open times, then deceptive",
+    "If review contains contradictions or inconsistent statements about the hotel, then deceptive",
+    "If review narrative is coherent and logically structured, then truthful",
+    "If review uses repetitive phrases or unnatural language patterns, then deceptive",
+    "If reviewer account posts multiple reviews in short timespan, then deceptive",
+    "If review mentions staff names or specific employee interactions consistent with hotel practices, then truthful",
+    "If review uses generic superlatives without supporting details, then deceptive",
+    "If review describes sensory experiences consistent with hotel environment, then truthful",
+    "If review avoids any personal experience indicators, then deceptive",
+    "If review references local landmarks or neighborhood context accurately, then truthful"
+  ]
+}

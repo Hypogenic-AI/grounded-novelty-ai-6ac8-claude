@@ -1,0 +1,22 @@
+{
+  "task": "deceptive_reviews",
+  "regime": "C5_proposal",
+  "seed": 1,
+  "bank": [
+    "Reviews with higher lexical diversity are more likely truthful.",
+    "Reviews containing more sensory and adjectival descriptors indicate truthfulness.",
+    "Reviews exhibiting extremely positive or negative sentiment polarity are more likely deceptive.",
+    "Reviews with fewer nuanced emotional expressions tend to be deceptive.",
+    "Reviews using more first-person pronouns are more likely truthful.",
+    "Presence of temporal markers referring to past experience predicts truthfulness.",
+    "Reviews including specific contextual details (e.g., room type, staff names) indicate truthfulness.",
+    "Shorter reviews are more likely to be deceptive.",
+    "Reviews with repetitive or formulaic sentence structures suggest deception.",
+    "Excessive positivity or negativity in language predicts deceptive reviews.",
+    "Reviews showing inconsistency in factual details are more likely deceptive.",
+    "Reviews with balanced sentiment scores are more likely truthful.",
+    "Use of generic or vague language correlates with deception.",
+    "Longer, more elaborated reviews tend to be truthful.",
+    "Higher frequency of experiential references (e.g., describing activities or events) predicts truthfulness."
+  ]
+}

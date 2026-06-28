@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C3_empirical",
+  "seed": 1,
+  "bank": [
+    "Headlines that use clear, relatable language and recognizable figures or authorities attract more clicks than those using vague or indirect references.",
+    "Headlines that include surprising or emotionally engaging elements aligned with the audience's values or identities generate more clicks than purely factual statements.",
+    "Using concrete, vivid verbs and active voice in headlines results in more clicks than passive or abstract phrasing.",
+    "Headlines that incorporate informal, conversational tone or colloquial expressions can engage more clicks than overly formal or technical language.",
+    "Personal or direct address in headlines (e.g., 'I', 'you', or specific groups) enhances clicks more than impersonal or generalized phrasing.",
+    "Headlines that create anticipation or imply a narrative development with a clear cause-and-effect relationship attract more clicks than those presenting isolated facts.",
+    "Effective use of timing or immediacy cues in headlines (e.g., 'right now', 'at 0.50') can increase clicks more than timeless or undated phrasing.",
+    "Headlines that frame conflict or challenge with clarity and specificity generate more clicks than ambiguous or overly subtle tension.",
+    "Including emotionally charged or value-laden words that resonate with target audience beliefs leads to more clicks than neutral or sanitized vocabulary.",
+    "Headlines that use humor or irony effectively balance clarity and subtlety, avoiding overly obscure or aggressive tones to attract clicks.",
+    "Headlines that highlight human agency and resilience in the face of adversity tend to receive more clicks than those focusing solely on outcomes or descriptions.",
+    "Questions in headlines that reference concrete, relatable situations or social dynamics encourage more clicks than abstract or broad inquiries.",
+    "Headlines that combine a hint of controversy or challenge with respectful tone and credible framing attract more clicks than those that are either too confrontational or too bland.",
+    "Inclusion of specific numbers, time markers, or quantifiable details in headlines improves click appeal compared to vague quantifiers or generalities.",
+    "Headlines that suggest exclusive insights or unique perspectives delivered in an accessible and engaging manner tend to get more clicks than those that sound generic or overly complex."
+  ]
+}

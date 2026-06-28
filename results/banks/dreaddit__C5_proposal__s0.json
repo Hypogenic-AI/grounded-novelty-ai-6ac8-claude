@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C5_proposal",
+  "seed": 0,
+  "bank": [
+    "If a post contains a high frequency of first-person singular pronouns, then label it 'has stress'.",
+    "If a post contains a low frequency of first-person singular pronouns, then label it 'no stress'.",
+    "If a post contains a high frequency of negative emotion words, then label it 'has stress'.",
+    "If a post contains a low frequency of negative emotion words, then label it 'no stress'.",
+    "If a post contains a high frequency of cognitive processing words (e.g., 'because', 'think'), then label it 'has stress'.",
+    "If a post contains a low frequency of cognitive processing words, then label it 'no stress'.",
+    "If a post contains a low frequency of social words (e.g., 'we', 'friends'), then label it 'has stress'.",
+    "If a post contains a high frequency of social words, then label it 'no stress'.",
+    "If a post contains a high frequency of tentative language (e.g., 'maybe', 'perhaps'), then label it 'has stress'.",
+    "If a post contains a low frequency of tentative language, then label it 'no stress'.",
+    "If a post contains increased linguistic disfluencies such as filler words or repeated phrases, then label it 'has stress'.",
+    "If a post contains low linguistic disfluencies, then label it 'no stress'.",
+    "If a post has higher language complexity disruption (e.g., cognitive load markers), then label it 'has stress'.",
+    "If a post has normal or higher coherence and complexity, then label it 'no stress'.",
+    "If a post\u2019s linguistic features significantly differ from community baseline norms toward stress markers, then label it 'has stress'."
+  ]
+}

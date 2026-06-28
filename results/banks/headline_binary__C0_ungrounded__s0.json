@@ -1,0 +1,22 @@
+{
+  "task": "headline_binary",
+  "regime": "C0_ungrounded",
+  "seed": 0,
+  "bank": [
+    "Headline with emotionally charged words gets more clicks than headline without.",
+    "Headline using numbers or lists receives more clicks than headline without numbers.",
+    "Headline framed as a question attracts more clicks than a declarative headline.",
+    "Headline with first-person or direct address ('you', 'we') gains more clicks than impersonal headlines.",
+    "Headline containing a sense of urgency or exclusivity gets more clicks than neutral headlines.",
+    "Shorter headlines get more clicks than longer, wordier headlines.",
+    "Headlines that imply secrets or insider information attract more clicks than straightforward headlines.",
+    "Headlines with positive sentiment receive more clicks than those with negative sentiment.",
+    "Headline using active voice gets more clicks than headline using passive voice.",
+    "Headline that teases a surprising or counterintuitive fact gets more clicks than purely factual headlines.",
+    "Use of slang or informal language in headlines results in more clicks than formal language.",
+    "Headlines that mention a celebrity or well-known figure get more clicks than those that do not.",
+    "Headline phrased with a promise of a benefit or solution achieves more clicks than headline without.",
+    "Headline with keywords matching trending topics gains more clicks than headline without trending keywords.",
+    "Headline that uses alliteration or rhyme gets more clicks than headline with plain phrasing."
+  ]
+}

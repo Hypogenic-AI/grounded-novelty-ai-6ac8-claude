@@ -1,0 +1,22 @@
+{
+  "task": "dreaddit",
+  "regime": "C2_induction",
+  "seed": 0,
+  "bank": [
+    "Posts expressing intense negative emotions such as fear, anxiety, panic, or sadness indicate 'has stress'.",
+    "Posts describing intrusive thoughts, nightmares, or trauma-related symptoms indicate 'has stress'.",
+    "Posts showing self-blame, guilt, or rumination about personal faults indicate 'has stress'.",
+    "Posts describing difficulty coping, feeling overwhelmed, or stuck in negative mental states indicate 'has stress'.",
+    "Posts mentioning recent emotional struggles or confusion about feelings indicate 'has stress'.",
+    "Posts discussing ongoing mental health challenges or symptoms without resolved coping indicate 'has stress'.",
+    "Posts describing avoidance behaviors or needing distractions to avoid distressing thoughts indicate 'has stress'.",
+    "Posts using tentative, uncertain, or questioning language about their mental state indicate 'has stress'.",
+    "Posts sharing traumatic experiences or abuse with emotional distress indicate 'has stress'.",
+    "Posts that are factual, neutral, or descriptive without emotional distress indicate 'no stress'.",
+    "Posts expressing gratitude, encouragement, or positive social interactions indicate 'no stress'.",
+    "Posts describing mental health conditions or treatments in an informative or normalized way indicate 'no stress'.",
+    "Posts reflecting acceptance, coping success, or emotional stability indicate 'no stress'.",
+    "Posts mentioning physical injuries or situations without emotional distress indicate 'no stress'.",
+    "Posts discussing anxiety or PTSD as past or managed conditions indicate 'no stress'."
+  ]
+}

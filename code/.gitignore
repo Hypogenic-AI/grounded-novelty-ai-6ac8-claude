@@ -1,0 +1,14 @@
+# Cloned third-party repos: keep source for reference but exclude bulky data/model/cache artifacts
+**/data/**
+**/Data/**
+**/*.pdf
+**/*.pt
+**/*.bin
+**/*.ckpt
+**/*.zip
+**/*.tar.gz
+**/__pycache__/
+**/.cache/
+**/result/**
+**/results/**
+**/outputs/**
